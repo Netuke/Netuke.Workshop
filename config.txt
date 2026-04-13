@@ -12,6 +12,18 @@
 #  [ui] — TODOS OS TEXTOS DA INTERFACE
 # ============================================================
 [ui]
+
+# ── Tela de Entrada (Splash) ──
+ui_splash_titulo = Netuke
+ui_splash_titulo_en = Netuke
+ui_splash_titulo_es = Netuke
+ui_splash_titulo_ru = Netuke
+
+ui_splash_botao = PLAY
+ui_splash_botao_en = PLAY
+ui_splash_botao_es = PLAY
+ui_splash_botao_ru = PLAY
+
 ui_page_title = Netuke.Workshop — Mods, Jogos e Downloads
 ui_page_title_en = Netuke.Workshop — Mods, Games & Downloads
 ui_page_title_es = Netuke.Workshop — Mods, Juegos y Descargas

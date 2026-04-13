@@ -495,6 +495,111 @@ footer strong{color:var(--cw)}
   .logo{font-size:.88rem;max-width:72px}
   .btn-translate{padding:7px 8px;min-width:38px}
 }
+
+/* ═══════════════════════════════════
+   SPLASH SCREEN
+═══════════════════════════════════ */
+#splash{
+  position:fixed;inset:0;z-index:9999;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;
+  background:#060000;
+  transition:opacity .8s ease, transform .8s ease;
+  cursor:pointer;
+  padding:24px;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+#splash.hide{
+  opacity:0;transform:scale(1.04);pointer-events:none;
+}
+.splash-bg{
+  position:absolute;inset:0;overflow:hidden;pointer-events:none;
+}
+.splash-bg::before{
+  content:'';position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 70% 60% at 20% 20%, rgba(180,0,0,.5), transparent 60%),
+    radial-gradient(ellipse 60% 50% at 80% 80%, rgba(255,60,0,.35), transparent 55%),
+    radial-gradient(ellipse 50% 40% at 60% 10%, rgba(120,0,0,.3), transparent 60%);
+  animation:splashBg 4s ease-in-out infinite alternate;
+}
+@keyframes splashBg{
+  0%{opacity:.7;filter:hue-rotate(0deg)}
+  100%{opacity:1;filter:hue-rotate(12deg)}
+}
+.splash-particles{
+  position:absolute;inset:0;overflow:hidden;pointer-events:none;
+}
+.splash-logo-wrap{
+  position:relative;z-index:1;text-align:center;
+  width:100%;max-width:500px;
+  margin:0 auto 40px auto;
+  animation:splashLogoIn 1s cubic-bezier(.22,1,.36,1) both;
+}
+@keyframes splashLogoIn{
+  from{opacity:0;transform:translateY(-40px) scale(.85)}
+  to{opacity:1;transform:none}
+}
+.splash-logo{
+  font-family:'Syne',sans-serif;
+  font-size:clamp(1.8rem,5vw,3.2rem);
+  font-weight:800;letter-spacing:-2px;
+  background:linear-gradient(90deg,#ff0000,#ff4400,#ffaa00,#ff4400,#cc0000,#770000,#cc0000,#ff4400,#ffaa00,#ff0000);
+  background-size:300% 100%;
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;
+  animation:logoFire 2.5s linear infinite, splashGlow 2s ease-in-out infinite alternate;
+  display:block;line-height:1.1;
+  word-break:break-word;
+  max-width:100%;
+}
+@keyframes splashGlow{
+  0%{filter:drop-shadow(0 0 12px rgba(200,0,0,.7)) drop-shadow(0 0 4px rgba(255,80,0,.5))}
+  100%{filter:drop-shadow(0 0 30px rgba(230,0,0,1)) drop-shadow(0 0 12px rgba(255,130,0,.8)) drop-shadow(0 0 50px rgba(180,0,0,.4))}
+}
+.splash-sub{display:none}
+.splash-btn-wrap{
+  position:relative;z-index:1;
+  display:flex;flex-direction:column;align-items:center;
+  animation:splashBtnIn 1s cubic-bezier(.22,1,.36,1) both .35s;
+}
+@keyframes splashBtnIn{
+  from{opacity:0;transform:translateY(30px)}
+  to{opacity:1;transform:none}
+}
+.splash-btn{
+  position:relative;overflow:hidden;
+  background:linear-gradient(135deg,#880000,#cc0000,#ff2200);
+  color:#fff;font-family:'Syne',sans-serif;
+  font-size:clamp(1rem,3vw,1.25rem);font-weight:800;
+  letter-spacing:2px;text-transform:uppercase;
+  padding:18px 56px;border-radius:999px;border:none;
+  cursor:pointer;
+  box-shadow:0 0 0 1px rgba(255,80,0,.4), 0 0 40px rgba(200,0,0,.6), 0 8px 30px rgba(0,0,0,.6);
+  animation:splashBtnPulse 2s ease-in-out infinite;
+  transition:transform .2s, box-shadow .2s;
+  -webkit-tap-highlight-color:transparent;
+}
+@keyframes splashBtnPulse{
+  0%,100%{box-shadow:0 0 0 1px rgba(255,80,0,.4),0 0 40px rgba(200,0,0,.5),0 8px 30px rgba(0,0,0,.6)}
+  50%{box-shadow:0 0 0 2px rgba(255,140,0,.6),0 0 80px rgba(220,20,0,.9),0 8px 30px rgba(0,0,0,.6)}
+}
+.splash-btn::before{
+  content:'';position:absolute;top:0;left:-100%;width:60%;height:100%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.25),transparent);
+  animation:splashShimmer 2.2s infinite;
+}
+@keyframes splashShimmer{from{left:-100%}to{left:160%}}
+.splash-btn:hover{transform:scale(1.06);box-shadow:0 0 0 2px rgba(255,140,0,.6),0 0 100px rgba(220,0,0,1),0 12px 40px rgba(0,0,0,.7);animation:none}
+.splash-btn:active{transform:scale(.97)}
+.splash-hint{display:none}
+
+.splash-line{
+  position:absolute;bottom:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,#300000,#880000,#cc0000,#ff2200,#ff6600,#ffaa00,#ff6600,#ff2200,#cc0000,#880000,#300000);
+  background-size:300% 100%;animation:fireFlow 2s linear infinite;
+}
 </style>
 </head>
 
@@ -507,7 +612,23 @@ footer strong{color:var(--cw)}
 </head>
 
 </head>
+
+</head>
 <body>
+<div id="splash">
+  <div class="splash-bg"></div>
+  <canvas id="splash-canvas" style="position:absolute;inset:0;pointer-events:none;z-index:0"></canvas>
+  <div class="splash-logo-wrap">
+    <span class="splash-logo" id="splash-titulo">Netuke.Workshop</span>
+  </div>
+  <div class="splash-btn-wrap">
+    <button class="splash-btn" id="splash-btn">
+      <span id="splash-btn-label">PLAY</span>
+    </button>
+  </div>
+  <div class="splash-line"></div>
+</div>
+
 <div id="nw-bg"></div>
 <div id="nw-grain"></div>
 <div id="nw-grid"></div>
@@ -576,6 +697,7 @@ footer strong{color:var(--cw)}
 </div>
 <audio id="bg-audio" loop></audio>
 <script>
+
 
 
 
@@ -1597,7 +1719,61 @@ function _unlockAudio(thenSrc, thenName, thenType, thenKey){
   _EVTS.forEach(function(ev){ document.addEventListener(ev,_onFirst,{once:false,capture:true,passive:true}); });
 }
 
-async function init(){
+// ── SPLASH ──
+let _splashDismissed = false;
+
+function showSplash(){
+  const splash = document.getElementById('splash');
+  if(!splash) return;
+  // Update texts from config if available
+  function updateSplashTexts(){
+    if(!_cfg) return;
+    const st = document.getElementById('splash-titulo');
+    const ss = document.getElementById('splash-sub');
+    const sb = document.getElementById('splash-btn-label');
+    const sh = document.getElementById('splash-hint-label');
+    if(st) st.textContent = t('ui_splash_titulo') || 'Netuke.Workshop';
+    
+    if(sb) sb.textContent = t('ui_splash_botao') || 'PLAY';
+    
+  }
+
+  function dismissSplash(){
+    if(_splashDismissed) return;
+    _splashDismissed = true;
+    // Unlock audio on this user gesture
+    const audio = document.getElementById('bg-audio');
+    if(audio){ try{ audio.play().catch(()=>{}); audio.pause(); }catch(e){} }
+    // Hide splash with animation
+    splash.classList.add('hide');
+    setTimeout(()=>{ splash.style.display='none'; }, 850);
+    // Show nav and app
+    document.querySelector('nav').style.display = '';
+    document.getElementById('app').style.display = '';
+    // Trigger init
+    _initAfterSplash();
+  }
+
+  // Button and background click
+  const btn = document.getElementById('splash-btn');
+  if(btn){ btn.addEventListener('click', dismissSplash, {once:true}); }
+  splash.addEventListener('click', function(e){
+    if(e.target === btn || btn.contains(e.target)) return;
+    dismissSplash();
+  }, {once:true});
+  // Keyboard enter/space
+  document.addEventListener('keydown', function(e){
+    if(e.key==='Enter'||e.key===' ') dismissSplash();
+  }, {once:true});
+  updateSplashTexts();
+}
+
+async function _initAfterSplash(){
+  // Run the actual init logic
+  await _doInit();
+}
+
+async function _doInit(){
   const raw=await loadConfig();
   if(!raw){
     document.getElementById('app').innerHTML=`<div class="wrapper" style="padding:80px 0;text-align:center;color:var(--muted)">
@@ -1622,6 +1798,34 @@ async function init(){
     const firstAba=cfg.abas[firstAbaKey];
     if(firstAba.musica){
       _unlockAudio(firstAba.musica, cf(firstAba,'nome')||firstAbaKey, 'aba', firstAbaKey);
+    }
+  }
+}
+
+async function init(){
+  // Hide nav and app until splash is dismissed
+  document.querySelector('nav').style.display = 'none';
+  document.getElementById('app').style.display = 'none';
+  showSplash();
+  // Pre-load config in background (so it's ready when user enters)
+  const raw = await loadConfig();
+  if(raw){
+    const cfg = parseConfig(raw);
+    _cfg = cfg;
+    _updatePageMeta();
+    // Update splash texts with config values
+    if(document.getElementById('splash-titulo')){
+      const splash = document.getElementById('splash');
+      if(splash && !_splashDismissed){
+        const st=document.getElementById('splash-titulo');
+        const ss=document.getElementById('splash-sub');
+        const sb=document.getElementById('splash-btn-label');
+        const sh=document.getElementById('splash-hint-label');
+        if(st) st.textContent=t('ui_splash_titulo')||'Netuke.Workshop';
+        if(ss) ss.textContent=t('ui_splash_subtitulo')||'Mods, Jogos e Downloads';
+        if(sb) sb.textContent=t('ui_splash_botao')||'Entrar';
+        if(sh) sh.textContent=t('ui_splash_hint')||'Clique para entrar';
+      }
     }
   }
 }
@@ -1929,6 +2133,48 @@ document.addEventListener('click',function(e){
 
 
 
+
+
+
+/* ── Splash canvas particles ── */
+(function(){
+  var cv = document.getElementById('splash-canvas');
+  if(!cv) return;
+  var ctx = cv.getContext('2d');
+  var W, H;
+  function rsz(){ W=cv.width=innerWidth; H=cv.height=innerHeight; }
+  rsz(); window.addEventListener('resize', rsz, {passive:true});
+  var pts = Array.from({length:35}, function(){
+    return {
+      x:Math.random()*innerWidth, y:Math.random()*innerHeight,
+      vx:(Math.random()-.5)*.4, vy:(Math.random()-.5)*.4,
+      r:Math.random()*2+.5,
+      col:['204,0,0','255,60,0','255,120,0','140,0,0'][Math.floor(Math.random()*4)],
+      o:Math.random()*.5+.15, pulse:Math.random()*Math.PI*2
+    };
+  });
+  var t=0, last=0;
+  function draw(now){
+    if(document.getElementById('splash') && !document.getElementById('splash').classList.contains('hide')){
+      requestAnimationFrame(draw);
+    } else return; // stop when splash gone
+    if(now-last<33) return; last=now; // ~30fps
+    ctx.clearRect(0,0,W,H); t+=.006;
+    pts.forEach(function(p){
+      p.x+=p.vx; p.y+=p.vy; p.pulse+=.02;
+      if(p.x<0)p.x=W; if(p.x>W)p.x=0; if(p.y<0)p.y=H; if(p.y>H)p.y=0;
+      var r=p.r*(1+Math.sin(p.pulse)*.4);
+      var gr=ctx.createRadialGradient(p.x,p.y,0,p.x,p.y,r*5);
+      gr.addColorStop(0,'rgba('+p.col+','+p.o+')');
+      gr.addColorStop(1,'rgba('+p.col+',0)');
+      ctx.beginPath(); ctx.arc(p.x,p.y,r*5,0,Math.PI*2);
+      ctx.fillStyle=gr; ctx.fill();
+      ctx.beginPath(); ctx.arc(p.x,p.y,r,0,Math.PI*2);
+      ctx.fillStyle='rgba('+p.col+','+(p.o*1.8)+')'; ctx.fill();
+    });
+  }
+  requestAnimationFrame(draw);
+})();
 
 </script>
 </body>
