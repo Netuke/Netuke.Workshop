@@ -648,7 +648,7 @@ criador = Netuke Team
 criador_en = Netuke Team
 criador_es = Netuke Team
 criador_ru = Netuke Team
-criador_icone = 🎭
+criador_icone = images/NetukeTeam.png
 badge = cancelado
 versoes = V1>>https://drive.google.com/file/d/1a77qAjRRrvKtgKCUTpPrqRyjGoVXCG1p/view?usp=drive_link | V2>>https://drive.google.com/file/d/1WxF6J_axm8O2R1V8qp8BbFHjFUMguUjT/view?usp=drive_link | V3>>https://drive.google.com/file/d/1F_92Y3BVF1-UQK2OdUGWsuGAkKZyCnAz/view?usp=drive_link | V4>>https://drive.google.com/file/d/1wq38_YprKCGiWYWWnVibKFycuU_fINuf/view?usp=drive_link
 
@@ -672,7 +672,7 @@ criador = Netuke Team
 criador_en = Netuke Team
 criador_es = Netuke Team
 criador_ru = Netuke Team
-criador_icone = 🎭
+criador_icone = images/NetukeTeam.png
 badge = cancelado
 versoes = V1>>https://drive.google.com/file/d/1YfAuI_nQu8FovGAlN7FD1V-yLJWPCjp2/view?usp=drive_link | V2>>https://drive.google.com/file/d/1Y25a0xgv8cEWkbYlc0OU68HlWakkoDME/view?usp=drive_link | V3>>https://drive.google.com/file/d/16k-gw_FGq9y2qHdOuWJxEr4xYrL--rl6/view?usp=drive_link
 
@@ -688,7 +688,7 @@ criador = Netuke Team
 criador_en = Netuke Team
 criador_es = Netuke Team
 criador_ru = Netuke Team
-criador_icone = 🎭
+criador_icone = images/NetukeTeam.png
 badge = embreve
 
 [item:fnf_hyperfunkin_mod]
@@ -711,7 +711,7 @@ criador = Netuke
 criador_en = Netuke
 criador_es = Netuke
 criador_ru = Netuke
-criador_icone = yt
+criador_icone = images/Netuke.png
 badge = cancelado | modpack
 versoes = V1>>https://drive.google.com/file/d/1GNO0OErjg5l6ZqhM_qQECaP-ctyY5BBv/view?usp=drive_link | V2>>https://drive.google.com/file/d/1TeO55fguoWxfTPG0SBArY6B7St5fLPsC/view?usp=drive_link | V3>>https://drive.google.com/file/d/1QhPc2x0NtYbrWuQLd2p7lZH2NuX1tLBP/view?usp=drive_link
 
@@ -735,7 +735,7 @@ criador = Netuke
 criador_en = Netuke
 criador_es = Netuke
 criador_ru = Netuke
-criador_icone = yt
+criador_icone = images/Netuke.png
 badge = modpack
 versoes = V1>>https://drive.google.com/file/d/1FxGh44JoSPs-ldzfNma-BZihak8bBSLt/view?usp=drive_link | V2>>https://drive.google.com/file/d/1lGZ8MOFk_NCLj5O1ddh_zxjcwlDKK1ZD/view?usp=drive_link | V3>>https://drive.google.com/file/d/1u64XR5_hGqpXZzaHJgca7SY3BrBh-kMR/view?usp=drive_link
 
@@ -759,7 +759,7 @@ criador = Netuke
 criador_en = Netuke
 criador_es = Netuke
 criador_ru = Netuke
-criador_icone = yt
+criador_icone = images/Netuke.png
 badge = port
 link = https://drive.google.com/file/d/1Dm05Y-o3zuT9AZYOv9oYBG_ho4iJwMwk/view?usp=drive_link
 
@@ -783,7 +783,7 @@ criador = Netuke
 criador_en = Netuke
 criador_es = Netuke
 criador_ru = Netuke
-criador_icone = yt
+criador_icone = images/Netuke.png
 badge = mod
 link = https://drive.google.com/file/d/1T82t3VD5J2LtsOTedQtlxZkw3ISv-0oP/view?usp=drive_link
 
@@ -807,7 +807,7 @@ criador = Netuke
 criador_en = Netuke
 criador_es = Netuke
 criador_ru = Netuke
-criador_icone = yt
+criador_icone = images/Netuke.png
 badge = mod
 link = https://drive.google.com/file/d/1H3yLYB8yyR45RVNFuTdBN7jIvQL9m9gG/view?usp=drive_link
 
@@ -831,7 +831,7 @@ criador = Netuke
 criador_en = Netuke
 criador_es = Netuke
 criador_ru = Netuke
-criador_icone = yt
+criador_icone = images/Netuke.png
 badge = port
 link = https://drive.google.com/file/d/1XLAPlyNaPYSSM5RpMVu1ACEqN_MvrHan/view?usp=drive_link
 
@@ -855,7 +855,7 @@ criador = Netuke
 criador_en = Netuke
 criador_es = Netuke
 criador_ru = Netuke
-criador_icone = yt
+criador_icone = images/Netuke.png
 badge = desatualizado
 link = https://drive.google.com/file/d/16h7A97Wy18XQKiKEMaC2RLpU92ttbxki/view?usp=drive_link
 
@@ -944,7 +944,7 @@ criador = Netuke
 criador_en = Netuke
 criador_es = Netuke
 criador_ru = Netuke
-criador_icone = yt
+criador_icone = images/Netuke.png
 versoes = PLAY>>https://www.roblox.com/pt/games/124630300328425/Project-Zenex-Funkin
 
 # ============================================================
