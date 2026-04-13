@@ -1732,7 +1732,7 @@ function showSplash(){
     const ss = document.getElementById('splash-sub');
     const sb = document.getElementById('splash-btn-label');
     const sh = document.getElementById('splash-hint-label');
-    if(st) st.textContent = t('ui_splash_titulo') || 'Netuke.Workshop';
+    if(st) st.textContent = t('ui_splash_titulo') || 'Netuke';
     
     if(sb) sb.textContent = t('ui_splash_botao') || 'PLAY';
     
@@ -1821,10 +1821,10 @@ async function init(){
         const ss=document.getElementById('splash-sub');
         const sb=document.getElementById('splash-btn-label');
         const sh=document.getElementById('splash-hint-label');
-        if(st) st.textContent=t('ui_splash_titulo')||'Netuke.Workshop';
-        if(ss) ss.textContent=t('ui_splash_subtitulo')||'Mods, Jogos e Downloads';
-        if(sb) sb.textContent=t('ui_splash_botao')||'Entrar';
-        if(sh) sh.textContent=t('ui_splash_hint')||'Clique para entrar';
+        if(st) st.textContent=t('ui_splash_titulo')||'Netuke';
+        if(ss) ss.textContent=t('ui_splash_subtitulo')||'';
+        if(sb) sb.textContent=t('ui_splash_botao')||'PLAY';
+        if(sh) sh.textContent=t('ui_splash_hint')||'';
       }
     }
   }
