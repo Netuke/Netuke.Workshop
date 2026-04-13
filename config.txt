@@ -1,0 +1,2053 @@
+# ============================================================
+#  NETUKE.WORKSHOP — ARQUIVO DE CONFIGURAÇÃO COMPLETO
+#  Edite este arquivo para controlar TODO o site.
+#  Linhas com # são comentários e são ignoradas.
+#
+#  TRADUÇÕES: adicione sufixo ao campo:
+#    _en = Inglês  |  _es = Espanhol  |  _ru = Russo
+#  Sem sufixo = Português (padrão)
+# ============================================================
+
+# ============================================================
+#  [ui] — TODOS OS TEXTOS DA INTERFACE
+# ============================================================
+[ui]
+ui_page_title = Netuke.Workshop — Mods, Jogos e Downloads
+ui_page_title_en = Netuke.Workshop — Mods, Games & Downloads
+ui_page_title_es = Netuke.Workshop — Mods, Juegos y Descargas
+ui_page_title_ru = Netuke.Workshop — Моды, Игры и Загрузки
+
+ui_meta_desc = Bem-vindo à Netuke.Workshop! Baixe mods, jogos e conteúdos selecionados e verificados pelo Netuke. Comunidade, qualidade e tudo de graça.
+ui_meta_desc_en = Welcome to Netuke.Workshop! Download mods, games and content selected and verified by Netuke. Community, quality and all for free.
+ui_meta_desc_es = ¡Bienvenido a Netuke.Workshop! Descarga mods, juegos y contenido seleccionado por Netuke. Comunidad, calidad y todo gratis.
+ui_meta_desc_ru = Добро пожаловать на Netuke.Workshop! Скачивай моды, игры и контент от Netuke. Сообщество, качество и всё бесплатно.
+
+ui_og_title = Netuke.Workshop — Mods, Jogos & Downloads
+ui_og_title_en = Netuke.Workshop — Mods, Games & Downloads
+ui_og_title_es = Netuke.Workshop — Mods, Juegos & Descargas
+ui_og_title_ru = Netuke.Workshop — Моды, Игры & Загрузки
+
+ui_og_desc = Mods, jogos e downloads selecionados pelo Netuke. Acesse agora e faça parte da comunidade!
+ui_og_desc_en = Mods, games and downloads selected by Netuke. Join now and be part of the community!
+ui_og_desc_es = Mods, juegos y descargas de Netuke. ¡Únete y sé parte de la comunidad!
+ui_og_desc_ru = Моды, игры и загрузки от Netuke. Присоединяйся и стань частью сообщества!
+
+ui_ver_downloads = Ver Downloads
+ui_ver_downloads_en = See Downloads
+ui_ver_downloads_es = Ver Descargas
+ui_ver_downloads_ru = Смотреть загрузки
+
+ui_join_discord = Entrar no Discord
+ui_join_discord_en = Join Discord
+ui_join_discord_es = Entrar al Discord
+ui_join_discord_ru = Войти в Discord
+
+ui_section_features_titulo = Por que a Netuke.Workshop?
+ui_section_features_titulo_en = Why Netuke.Workshop?
+ui_section_features_titulo_es = ¿Por qué Netuke.Workshop?
+ui_section_features_titulo_ru = Почему Netuke.Workshop?
+
+ui_section_features_sub = Qualidade, praticidade e comunidade — tudo em um lugar.
+ui_section_features_sub_en = Quality, convenience and community — all in one place.
+ui_section_features_sub_es = Calidad, comodidad y comunidad — todo en un lugar.
+ui_section_features_sub_ru = Качество, удобство и сообщество — всё в одном месте.
+
+ui_section_social_titulo = Comunidade & Redes Sociais
+ui_section_social_titulo_en = Community & Social Media
+ui_section_social_titulo_es = Comunidad & Redes Sociales
+ui_section_social_titulo_ru = Сообщество и соцсети
+
+ui_section_social_sub = Fique por dentro de tudo e faça parte da família Netuke.
+ui_section_social_sub_en = Stay up to date and be part of the Netuke family.
+ui_section_social_sub_es = Mantente al día y sé parte de la familia Netuke.
+ui_section_social_sub_ru = Будь в курсе и стань частью семьи Netuke.
+
+ui_inscrever_yt = Inscrever no YouTube
+ui_inscrever_yt_en = Subscribe on YouTube
+ui_inscrever_yt_es = Suscribirse en YouTube
+ui_inscrever_yt_ru = Подписаться на YouTube
+
+ui_entrar_servidor = Entrar no Servidor
+ui_entrar_servidor_en = Join the Server
+ui_entrar_servidor_es = Unirse al Servidor
+ui_entrar_servidor_ru = Войти на сервер
+
+ui_discord_cta = Quer novidades antes de todo mundo? Entre no Discord!
+ui_discord_cta_en = Want news before everyone? Join the Discord!
+ui_discord_cta_es = ¿Quieres novedades antes que todos? ¡Únete al Discord!
+ui_discord_cta_ru = Хочешь новости раньше всех? Заходи в Discord!
+
+ui_feito_por = Feito por
+ui_feito_por_en = Made by
+ui_feito_por_es = Hecho por
+ui_feito_por_ru = Сделано
+
+ui_criador_titulo = Criador
+ui_criador_titulo_en = Creator
+ui_criador_titulo_es = Creador
+ui_criador_titulo_ru = Создатель
+
+ui_todos = Todos
+ui_todos_en = All
+ui_todos_es = Todos
+ui_todos_ru = Все
+
+ui_dl_hero_sub = Conteúdos criados e verificados pelo Netuke, disponíveis de graça para a comunidade.
+ui_dl_hero_sub_en = Content created and verified by Netuke, available for free to the community.
+ui_dl_hero_sub_es = Contenido creado y verificado por Netuke, disponible gratis para la comunidad.
+ui_dl_hero_sub_ru = Контент создан и проверен Netuke, доступен бесплатно для сообщества.
+
+ui_item = item
+ui_item_en = item
+ui_item_es = elemento
+ui_item_ru = элемент
+
+ui_itens = itens
+ui_itens_en = items
+ui_itens_es = elementos
+ui_itens_ru = элементов
+
+ui_resultado_singular = resultado
+ui_resultado_singular_en = result
+ui_resultado_singular_es = resultado
+ui_resultado_singular_ru = результат
+
+ui_resultados_plural = resultados
+ui_resultados_plural_en = results
+ui_resultados_plural_es = resultados
+ui_resultados_plural_ru = результатов
+
+ui_search = Pesquisar...
+ui_search_en = Search...
+ui_search_es = Buscar...
+ui_search_ru = Поиск...
+
+ui_resultados_para = para
+ui_resultados_para_en = for
+ui_resultados_para_es = para
+ui_resultados_para_ru = для
+
+ui_search_results = Resultados da busca
+ui_search_results_en = Search results
+ui_search_results_es = Resultados de búsqueda
+ui_search_results_ru = Результаты поиска
+
+ui_limpar = Limpar
+ui_limpar_en = Clear
+ui_limpar_es = Limpiar
+ui_limpar_ru = Очистить
+
+ui_sem_resultados = Nenhum resultado 😕
+ui_sem_resultados_en = No results 😕
+ui_sem_resultados_es = Sin resultados 😕
+ui_sem_resultados_ru = Нет результатов 😕
+
+ui_sem_resultados_para = Nenhum resultado para
+ui_sem_resultados_para_en = No results for
+ui_sem_resultados_para_es = Sin resultados para
+ui_sem_resultados_para_ru = Нет результатов для
+
+ui_tente_outro_termo = Tente buscar por outro termo.
+ui_tente_outro_termo_en = Try searching for another term.
+ui_tente_outro_termo_es = Intenta con otro término.
+ui_tente_outro_termo_ru = Попробуй другой запрос.
+
+ui_nada_encontrado = Nada encontrado 😕
+ui_nada_encontrado_en = Nothing found 😕
+ui_nada_encontrado_es = Nada encontrado 😕
+ui_nada_encontrado_ru = Ничего не найдено 😕
+
+ui_play = Play
+ui_play_en = Play
+ui_play_es = Play
+ui_play_ru = Играть
+
+ui_pause = Pausar
+ui_pause_en = Pause
+ui_pause_es = Pausar
+ui_pause_ru = Пауза
+
+ui_stop = Parar
+ui_stop_en = Stop
+ui_stop_es = Parar
+ui_stop_ru = Стоп
+
+ui_download = Baixar
+ui_download_en = Download
+ui_download_es = Descargar
+ui_download_ru = Скачать
+
+ui_unavailable = 🔒 Indisponível
+ui_unavailable_en = 🔒 Not available
+ui_unavailable_es = 🔒 No disponible
+ui_unavailable_ru = 🔒 Недоступно
+
+ui_mission_title = 🔒 Desbloquear Download
+ui_mission_title_en = 🔒 Unlock Download
+ui_mission_title_es = 🔒 Desbloquear Descarga
+ui_mission_title_ru = 🔒 Разблокировать загрузку
+
+ui_mission_desc = Complete as tarefas abaixo para liberar o download.
+ui_mission_desc_en = Complete the tasks below to unlock the download.
+ui_mission_desc_es = Completa las tareas para desbloquear la descarga.
+ui_mission_desc_ru = Выполни задания, чтобы разблокировать загрузку.
+
+ui_feito = Feito ✓
+ui_feito_en = Done ✓
+ui_feito_es = Hecho ✓
+ui_feito_ru = Готово ✓
+
+ui_download_liberado = 🔓 Download Liberado!
+ui_download_liberado_en = 🔓 Download Unlocked!
+ui_download_liberado_es = 🔓 ¡Descarga desbloqueada!
+ui_download_liberado_ru = 🔓 Загрузка разблокирована!
+
+ui_ir = Ir
+ui_ir_en = Go
+ui_ir_es = Ir
+ui_ir_ru = Перейти
+
+ui_loading = ⚙️ Carregando...
+ui_loading_en = ⚙️ Loading...
+ui_loading_es = ⚙️ Cargando...
+ui_loading_ru = ⚙️ Загрузка...
+
+ui_loading_sub = Lendo config.txt...
+ui_loading_sub_en = Reading config.txt...
+ui_loading_sub_es = Leyendo config.txt...
+ui_loading_sub_ru = Читаю config.txt...
+
+ui_footer_sub_desc = Conteúdo criado e verificado pelo Netuke, disponível gratuitamente.
+ui_footer_sub_desc_en = Content created and verified by Netuke, available for free.
+ui_footer_sub_desc_es = Contenido creado y verificado por Netuke, disponible gratis.
+ui_footer_sub_desc_ru = Контент создан и проверен Netuke, доступен бесплатно.
+
+# ============================================================
+#  [musicas] — CAMINHOS DOS ARQUIVOS DE ÁUDIO
+# ============================================================
+[musicas]
+menu = musics/MenuMusic.ogg
+brawlstars = musics/BSMusic.ogg
+fnf = musics/FNFMusic.ogg
+lac = musics/LACMusic.ogg
+jogos = musics/GamesMusic.ogg
+
+# ============================================================
+#  [sfx] — SONS DE INTERFACE
+# ============================================================
+[sfx]
+sfx_download = 392,sine,0.22,0.09|494,sine,0.22,0.09|587,sine,0.22,0.09
+sfx_tab = 440,sine,0.14,0.08|554,sine,0.14,0.08
+sfx_subtab = 520,sine,0.10,0.07
+sfx_lang = 600,sine,0.08,0.06
+sfx_stat = 380,triangle,0.12,0.055
+sfx_card = 320,sine,0.09,0.045
+sfx_music_btn = 700,square,0.06,0.045
+sfx_mission = 440,sine,0.20,0.08|554,sine,0.20,0.08|659,sine,0.20,0.08
+sfx_close = 250,sine,0.08,0.055
+sfx_discord = 392,sine,0.16,0.08|494,sine,0.16,0.08
+sfx_youtube = 350,sine,0.16,0.08|440,sine,0.16,0.08
+sfx_badge = 540,sine,0.08,0.05
+sfx_logo = 261,sine,0.25,0.07|329,sine,0.25,0.07|392,sine,0.25,0.07
+sfx_default = 480,sine,0.07,0.06
+sfx_typing_min = 280
+sfx_typing_max = 440
+sfx_typing_dur = 0.04
+sfx_typing_vol = 0.028
+sfx_scroll_min = 155
+sfx_scroll_max = 205
+sfx_scroll_dur = 0.04
+sfx_scroll_vol = 0.012
+sfx_drag_min = 200
+sfx_drag_max = 260
+sfx_drag_dur = 0.03
+sfx_drag_vol = 0.008
+
+# ============================================================
+#  [site] — CONFIGURAÇÕES GERAIS
+# ============================================================
+[site]
+titulo = Netuke.Workshop
+titulo_en = Netuke.Workshop
+titulo_es = Netuke.Workshop
+titulo_ru = Netuke.Workshop
+
+descricao_hero = A Netuke.Workshop é onde o Netuke disponibiliza downloads, ferramentas e conteúdos exclusivos — tudo feito por ele, de graça pra você.
+descricao_hero_en = Netuke.Workshop is where Netuke shares downloads, tools and exclusive content — all made by him, completely free for you.
+descricao_hero_es = Netuke.Workshop es donde Netuke comparte descargas, herramientas y contenido exclusivo — todo completamente gratis para ti.
+descricao_hero_ru = Netuke.Workshop — место, где Netuke делится загрузками и эксклюзивным контентом — всё бесплатно для тебя.
+
+titulo_hero = Olá!
+titulo_hero_en = Hello!
+titulo_hero_es = ¡Hola!
+titulo_hero_ru = Привет!
+
+subtitulo_hero = Olá!
+subtitulo_hero_en = Hello!
+subtitulo_hero_es = ¡Hola!
+subtitulo_hero_ru = Привет!
+
+tag_hero = Bem-vindo ao Site
+tag_hero_en = Welcome to the Site
+tag_hero_es = Bienvenido al Sitio
+tag_hero_ru = Добро пожаловать
+
+criador_nome = Netuke
+criador_titulo = Criador
+criador_titulo_en = Creator
+criador_titulo_es = Creador
+criador_titulo_ru = Создатель
+
+criador_descricao = A grande maioria dos conteúdos disponíveis aqui foram criados e desenvolvidos pelo Netuke — youtuber e criador de conteúdo exclusivo para a comunidade. Aqui você encontra o melhor do que ele produz, totalmente de graça.
+criador_descricao_en = The vast majority of content available here was created and developed by Netuke — a YouTuber and exclusive content creator for the community. Here you find the best of what he produces, completely free.
+criador_descricao_es = La gran mayoría del contenido disponible aquí fue creado por Netuke — youtuber y creador exclusivo para la comunidad. Totalmente gratis.
+criador_descricao_ru = Большинство контента создано Netuke — ютубером для сообщества. Абсолютно бесплатно.
+
+youtube_url = https://www.youtube.com/@Netuke
+youtube_texto = Canal no YouTube — @Netuke
+youtube_texto_en = YouTube Channel — @Netuke
+youtube_texto_es = Canal de YouTube — @Netuke
+youtube_texto_ru = YouTube-канал — @Netuke
+
+youtube_descricao = Assista vídeos sobre os conteúdos novos. Se inscreva para não perder nenhum vídeo do Netuke!
+youtube_descricao_en = Watch videos about new content. Subscribe so you don't miss any of Netuke's videos!
+youtube_descricao_es = Mira videos sobre el nuevo contenido. ¡Suscríbete para no perderte ningún video de Netuke!
+youtube_descricao_ru = Смотри видео о новом контенте. Подпишись, чтобы не пропустить ни одного видео Netuke!
+
+discord_url = https://discord.com/invite/pjUWUq8Nvt
+discord_titulo = Entre no Servidor do Discord!
+discord_titulo_en = Join the Discord Server!
+discord_titulo_es = ¡Únete al servidor de Discord!
+discord_titulo_ru = Присоединяйся к серверу Discord!
+
+discord_descricao = O Netuke recomenda fortemente que você entre no servidor. As novidades chegam antes de qualquer outro lugar, você encontra suporte, ajuda da comunidade e conteúdo exclusivo que não é postado em nenhuma outra plataforma.
+discord_descricao_en = Netuke strongly recommends you join the server. News arrives before anywhere else, you get support, community help and exclusive content not posted on any other platform.
+discord_descricao_es = Netuke recomienda fuertemente que te unas al servidor. Las novedades llegan antes, encuentras soporte, ayuda de la comunidad y contenido exclusivo que no se publica en ninguna otra plataforma.
+discord_descricao_ru = Netuke настоятельно рекомендует присоединиться к серверу. Новости приходят раньше всего, ты получаешь поддержку, помощь сообщества и эксклюзивный контент.
+
+discord_perks = 🔔 Novidades antes de todos | 🛠️ Suporte e ajuda do Netuke | 🎁 Conteúdo exclusivo
+discord_perks_en = 🔔 News before everyone | 🛠️ Support and help from Netuke | 🎁 Exclusive content
+discord_perks_es = 🔔 Novedades antes que todos | 🛠️ Soporte de Netuke | 🎁 Contenido exclusivo
+discord_perks_ru = 🔔 Новости раньше всех | 🛠️ Поддержка Netuke | 🎁 Эксклюзивный контент
+
+rodape = © 2026 Netuke.Workshop — Feito com 💙 pelo Netuke para a comunidade.
+rodape_en = © 2026 Netuke.Workshop — Made with 💙 by Netuke for the community.
+rodape_es = © 2026 Netuke.Workshop — Hecho con 💙 por Netuke para la comunidad.
+rodape_ru = © 2026 Netuke.Workshop — Сделано с 💙 Netuke для сообщества.
+
+rodape_sub = Para dúvidas e suporte, entre no servidor do Discord.
+rodape_sub_en = For questions and support, join the Discord server.
+rodape_sub_es = Para preguntas y soporte, únete al servidor de Discord.
+rodape_sub_ru = По вопросам — заходи на сервер Discord.
+
+stat1_num = 100%
+stat1_num_en = 100%
+stat1_num_es = 100%
+stat1_num_ru = 100%
+stat1_label = Gratuito
+stat1_label_en = Free
+stat1_label_es = Gratis
+stat1_label_ru = Бесплатно
+
+stat2_num = Seguro
+stat2_num_en = Safe
+stat2_num_es = Seguro
+stat2_num_ru = Безопасно
+stat2_label = Verificado
+stat2_label_en = Verified
+stat2_label_es = Verificado
+stat2_label_ru = Проверено
+
+stat3_num = 24/7
+stat3_num_en = 24/7
+stat3_num_es = 24/7
+stat3_num_ru = 24/7
+stat3_label = Disponível
+stat3_label_en = Available
+stat3_label_es = Disponible
+stat3_label_ru = Доступно
+
+stat4_num = Updates
+stat4_num_en = Updates
+stat4_num_es = Actualizaciones
+stat4_num_ru = Обновления
+stat4_label = Sempre novo
+stat4_label_en = Always new
+stat4_label_es = Siempre nuevo
+stat4_label_ru = Всегда новое
+
+feat1_icone = ⚡
+feat1_titulo = Downloads Rápidos
+feat1_titulo_en = Fast Downloads
+feat1_titulo_es = Descargas Rápidas
+feat1_titulo_ru = Быстрые загрузки
+feat1_desc = Sem espera e sem redirecionamentos. Clique, baixe e use em segundos.
+feat1_desc_en = No waiting, no redirects. Click, download and use in seconds.
+feat1_desc_es = Sin esperas ni redirecciones. Haz clic, descarga y úsalo en segundos.
+feat1_desc_ru = Без ожидания и перенаправлений. Нажми, скачай и используй.
+
+feat2_icone = 🔒
+feat2_titulo = 100% Seguro
+feat2_titulo_en = 100% Safe
+feat2_titulo_es = 100% Seguro
+feat2_titulo_ru = 100% Безопасно
+feat2_desc = Todos os arquivos são verificados pelo Netuke antes de serem disponibilizados.
+feat2_desc_en = All files are verified by Netuke before being made available.
+feat2_desc_es = Todos los archivos son verificados por Netuke antes de estar disponibles.
+feat2_desc_ru = Все файлы проверяются Netuke перед публикацией.
+
+feat3_icone = 🆕
+feat3_titulo = Novidades Primeiro no Discord
+feat3_titulo_en = News First on Discord
+feat3_titulo_es = Novedades Primero en Discord
+feat3_titulo_ru = Новости сначала в Discord
+feat3_desc = Antes de postar aqui, o Netuke lança tudo primeiro no servidor. Fique ligado!
+feat3_desc_en = Before posting here, Netuke releases everything on the server first. Stay tuned!
+feat3_desc_es = Antes de publicar aquí, Netuke lanza todo primero en el servidor. ¡Mantente atento!
+feat3_desc_ru = Перед публикацией здесь Netuke сначала выпускает всё на сервере. Следи за обновлениями!
+
+feat4_icone = 🛠️
+feat4_titulo = Feito pelo Netuke
+feat4_titulo_en = Made by Netuke
+feat4_titulo_es = Hecho por Netuke
+feat4_titulo_ru = Сделано Netuke
+feat4_desc = Conteúdo original, criado com cuidado pelo próprio Netuke pra comunidade.
+feat4_desc_en = Original content, carefully created by Netuke himself for the community.
+feat4_desc_es = Contenido original, cuidadosamente creado por el propio Netuke para la comunidad.
+feat4_desc_ru = Оригинальный контент, тщательно созданный самим Netuke для сообщества.
+
+# ============================================================
+#  BADGES
+# ============================================================
+[badge:novo]
+texto = 𒈝 Novo
+texto_en = 𒈝 New
+texto_es = 𒈝 Nuevo
+texto_ru = 𒈝 Новый
+cor_texto = #ff3d6e
+cor_fundo = #000000
+cor_borda = #000000
+cor_contorno = #000000
+
+[badge:cancelado]
+texto = 𒈝 Cancelado
+texto_en = 𒈝 Cancelled
+texto_es = 𒈝 Cancelado
+texto_ru = 𒈝 Отменено
+cor_texto = #B71C1C
+cor_fundo = #000000
+cor_borda = #000000
+cor_contorno = #000000
+
+[badge:desatualizado]
+texto = 𒈝 Desatualizado
+texto_en = 𒈝 Outdated
+texto_es = 𒈝 Desactualizado
+texto_ru = 𒈝 Устарело
+cor_texto = #757575
+cor_fundo = #000000
+cor_borda = #000000
+cor_contorno = #000000
+
+[badge:modpack]
+texto = 𒈝 ModPack
+texto_en = 𒈝 ModPack
+texto_es = 𒈝 ModPack
+texto_ru = 𒈝 МодПак
+cor_texto = #6A1B9A
+cor_fundo = #000000
+cor_borda = #000000
+cor_contorno = #000000
+
+[badge:port]
+texto = 𒈝 Port
+texto_en = 𒈝 Port
+texto_es = 𒈝 Port
+texto_ru = 𒈝 Порт
+cor_texto = #1565C0
+cor_fundo = #000000
+cor_borda = #000000
+cor_contorno = #000000
+
+[badge:mod]
+texto = 𒈝 Mod
+texto_en = 𒈝 Mod
+texto_es = 𒈝 Mod
+texto_ru = 𒈝 Мод
+cor_texto = #ff9900
+cor_fundo = #000000
+cor_borda = #000000
+cor_contorno = #000000
+
+[badge:android]
+texto = 𒈝 Android
+texto_en = 𒈝 Android
+texto_es = 𒈝 Android
+texto_ru = 𒈝 Андроид
+cor_texto = #A4C639
+cor_fundo = #000000
+cor_borda = #000000
+cor_contorno = #000000
+
+[badge:embreve]
+texto = 𒈝 Em Breve
+texto_en = 𒈝 Soon
+texto_es = 𒈝 Pronto
+texto_ru = 𒈝 Скоро
+cor_texto = #00ffc8
+cor_fundo = #000000
+cor_borda = #000000
+cor_contorno = #000000
+
+[badge:beta]
+texto = 𒈝 Beta
+texto_en = 𒈝 Beta
+texto_es = 𒈝 Beta
+texto_ru = 𒈝 Бета
+cor_texto = #FF9800
+cor_fundo = #000000
+cor_borda = #000000
+cor_contorno = #000000
+
+# ============================================================
+#  PÁGINAS DE DOWNLOAD
+# ============================================================
+[pagina:brawlstars]
+aba = downloads
+icone = images/BrawlStarsIcon.png
+nome = Brawl Stars
+nome_en = Brawl Stars
+nome_es = Brawl Stars
+nome_ru = Brawl Stars
+descricao = Mods De Brawl Stars
+descricao_en = Brawl Stars Mods
+descricao_es = Mods de Brawl Stars
+descricao_ru = Моды для Brawl Stars
+cor_icone = #ff6a00, #e5ff00
+musica = musics/BSMusic.ogg
+
+[pagina:fnf]
+aba = downloads
+icone = images/FNFIcon.png
+nome = Friday Night Funkin'
+nome_en = Friday Night Funkin'
+nome_es = Friday Night Funkin'
+nome_ru = Friday Night Funkin'
+descricao = Mods Para Friday Night Funkin
+descricao_en = Mods For Friday Night Funkin
+descricao_es = Mods Para Friday Night Funkin
+descricao_ru = Моды для Friday Night Funkin
+cor_icone = #9b00ff, #3a0099
+musica = musics/FNFMusic.ogg
+
+[pagina:lac]
+aba = downloads
+icone = images/LACIcon.png
+nome = Los Angeles Crimes
+nome_en = Los Angeles Crimes
+nome_es = Los Angeles Crimes
+nome_ru = Los Angeles Crimes
+descricao = Mods & Texturas Para Los Angeles Crimes
+descricao_en = Mods & Textures For Los Angeles Crimes
+descricao_es = Mods y Texturas Para Los Angeles Crimes
+descricao_ru = Моды и текстуры для Los Angeles Crimes
+cor_icone = #ff0000, #000000
+musica = musics/LACMusic.ogg
+
+[pagina:jogos]
+aba = jogos
+icone = images/GamesIcon.png
+nome = Jogos
+nome_en = Games
+nome_es = Juegos
+nome_ru = Игры
+descricao = Jogos Pra Mobile/PC
+descricao_en = Games for Mobile/PC
+descricao_es = Juegos para Móvil/PC
+descricao_ru = Игры для мобильных и ПК
+musica = musics/GamesMusic.ogg
+
+# ============================================================
+#  CATEGORIAS
+# ============================================================
+
+[categoria:brawlstars:mods]
+nome = Mods
+nome_en = Mods
+nome_es = Mods
+nome_ru = Моды
+
+[categoria:brawlstars:embreve]
+nome = Em Breve
+nome_en = Coming Soon
+nome_es = Próximamente
+nome_ru = Скоро
+
+[categoria:fnf:psych]
+nome = Psych Engine
+nome_en = Psych Engine
+nome_es = Psych Engine
+nome_ru = Psych Engine
+
+[categoria:fnf:codename]
+nome = Codename Engine
+nome_en = Codename Engine
+nome_es = Codename Engine
+nome_ru = Codename Engine
+
+[categoria:fnf:cdev]
+nome = CDEV Engine
+nome_en = CDEV Engine
+nome_es = CDEV Engine
+nome_ru = CDEV Engine
+
+[categoria:fnf:vslice]
+nome = V-Slice Engine
+nome_en = V-Slice Engine
+nome_es = V-Slice Engine
+nome_ru = V-Slice Engine
+
+[categoria:lac:v18]
+nome = V1.8
+nome_en = V1.8
+nome_es = V1.8
+nome_ru = V1.8
+
+[categoria:jogos:android]
+nome = Android
+nome_en = Android
+nome_es = Android
+nome_ru = Андроид
+
+[categoria:jogos:roblox]
+nome = Roblox
+nome_en = Roblox
+nome_es = Roblox
+nome_ru = Roblox
+
+# ============================================================
+#  ITENS DE DOWNLOAD
+# ============================================================
+[item:bs_powerbrawl]
+pagina = brawlstars
+categoria = mods
+titulo = Power Brawl
+titulo_en = Power Brawl
+titulo_es = Power Brawl
+titulo_ru = Power Brawl
+descricao = Power Brawl chegou para mudar completamente a forma como você joga. Esse não é só mais um mod, é uma nova experiência dentro do universo de Brawl Stars. Aqui você encontra brawlers inéditos, com habilidades únicas e estilos de jogo que realmente fazem diferença na arena. Cada personagem traz uma proposta diferente, exigindo estratégia, adaptação e domínio de mecânica.
+descricao_en = Power Brawl is here to completely change the way you play. This isn't just another mod — it's a brand new experience inside the Brawl Stars universe. You'll find brand new brawlers with unique abilities and playstyles that truly make a difference in the arena. Each character brings a different proposal, requiring strategy, adaptation and mechanical mastery.
+descricao_es = Power Brawl llegó para cambiar completamente la forma en que juegas. No es solo otro mod — es una experiencia completamente nueva dentro del universo de Brawl Stars. Encontrarás brawlers inéditos con habilidades únicas y estilos de juego que realmente marcan la diferencia en la arena.
+descricao_ru = Power Brawl пришёл, чтобы полностью изменить твой игровой опыт. Это не просто мод — это совершенно новый опыт во вселенной Brawl Stars. Здесь ты найдёшь новых бrawler'ов с уникальными способностями и стилями игры, которые действительно меняют ход боя.
+icone = images/PowerBrawlBG.png
+tamanho = ~V1: 159,1 MB | V2: 176,9 MB | V3: 190,9 MB | V4: 213,3 MB
+tamanho_en = ~V1: 159.1 MB | V2: 176.9 MB | V3: 190.9 MB | V4: 213.3 MB
+tamanho_es = ~V1: 159,1 MB | V2: 176,9 MB | V3: 190,9 MB | V4: 213,3 MB
+tamanho_ru = ~V1: 159,1 МБ | V2: 176,9 МБ | V3: 190,9 МБ | V4: 213,3 МБ
+criador = Netuke Team
+criador_en = Netuke Team
+criador_es = Netuke Team
+criador_ru = Netuke Team
+criador_icone = 🎭
+badge = cancelado
+versoes = V1>>https://drive.google.com/file/d/1a77qAjRRrvKtgKCUTpPrqRyjGoVXCG1p/view?usp=drive_link | V2>>https://drive.google.com/file/d/1WxF6J_axm8O2R1V8qp8BbFHjFUMguUjT/view?usp=drive_link | V3>>https://drive.google.com/file/d/1F_92Y3BVF1-UQK2OdUGWsuGAkKZyCnAz/view?usp=drive_link | V4>>https://drive.google.com/file/d/1wq38_YprKCGiWYWWnVibKFycuU_fINuf/view?usp=drive_link
+
+[item:bs_cosmicbrawl]
+pagina = brawlstars
+categoria = mods
+titulo = Cosmic Brawl
+titulo_en = Cosmic Brawl
+titulo_es = Cosmic Brawl
+titulo_ru = Cosmic Brawl
+descricao = Cosmic Brawl é um mod criado para renovar completamente sua experiência no Brawl Stars, trazendo conteúdo novo de verdade. Aqui você encontra brawlers exclusivos com habilidades próprias, mecânicas diferentes e estilos de jogo que realmente mudam o jeito de encarar cada partida.
+descricao_en = Cosmic Brawl is a mod created to completely refresh your Brawl Stars experience, bringing truly new content. You'll find exclusive brawlers with unique abilities, different mechanics and playstyles that genuinely change the way you approach every match.
+descricao_es = Cosmic Brawl es un mod creado para renovar completamente tu experiencia en Brawl Stars, trayendo contenido realmente nuevo. Encontrarás brawlers exclusivos con habilidades propias, mecánicas diferentes y estilos de juego que cambian de verdad cómo afrontas cada partida.
+descricao_ru = Cosmic Brawl — мод, созданный для полного обновления твоего опыта в Brawl Stars. Ты найдёшь эксклюзивных brawler'ов с уникальными способностями, разными механиками и стилями игры, которые по-настоящему меняют каждый матч.
+icone = images/CosmicBrawlBG.png
+tamanho = ~V1: 128,1 MB | V2: 216,1 MB | V3: 264,0 MB
+tamanho_en = ~V1: 128.1 MB | V2: 216.1 MB | V3: 264.0 MB
+tamanho_es = ~V1: 128,1 MB | V2: 216,1 MB | V3: 264,0 MB
+tamanho_ru = ~V1: 128,1 МБ | V2: 216,1 МБ | V3: 264,0 МБ
+criador = Netuke Team
+criador_en = Netuke Team
+criador_es = Netuke Team
+criador_ru = Netuke Team
+criador_icone = 🎭
+badge = cancelado
+versoes = V1>>https://drive.google.com/file/d/1YfAuI_nQu8FovGAlN7FD1V-yLJWPCjp2/view?usp=drive_link | V2>>https://drive.google.com/file/d/1Y25a0xgv8cEWkbYlc0OU68HlWakkoDME/view?usp=drive_link | V3>>https://drive.google.com/file/d/16k-gw_FGq9y2qHdOuWJxEr4xYrL--rl6/view?usp=drive_link
+
+[item:bs_horizonbrawl]
+pagina = brawlstars
+categoria = embreve
+titulo = Horizon Brawl
+titulo_en = Horizon Brawl
+titulo_es = Horizon Brawl
+titulo_ru = Horizon Brawl
+icone = images/HorizonBrawlBG.png
+criador = Netuke Team
+criador_en = Netuke Team
+criador_es = Netuke Team
+criador_ru = Netuke Team
+criador_icone = 🎭
+badge = embreve
+
+[item:fnf_hyperfunkin_mod]
+pagina = fnf
+categoria = codename
+titulo = Hyper Funkin
+titulo_en = Hyper Funkin
+titulo_es = Hyper Funkin
+titulo_ru = Hyper Funkin
+descricao = Hyper Funkin é o modpack definitivo para quem quer viver o melhor de Friday Night Funkin' em um único lugar. Em vez de baixar vários mods separados, aqui você encontra uma coleção reunida, organizada e pronta para jogar, trazendo personagens icônicos, músicas marcantes e desafios que testam de verdade sua habilidade no ritmo.
+descricao_en = Hyper Funkin is the ultimate modpack for anyone who wants to experience the best of Friday Night Funkin' in one place. Instead of downloading multiple separate mods, here you'll find a unified, organized, and ready-to-play collection featuring iconic characters, memorable music, and challenges that truly test your rhythm skills.
+descricao_es = Hyper Funkin es el modpack definitivo para quienes quieren vivir lo mejor de Friday Night Funkin' en un solo lugar. En lugar de descargar varios mods por separado, aquí encuentras una colección reunida, organizada y lista para jugar, con personajes icónicos, música memorable y desafíos que realmente ponen a prueba tu habilidad rítmica.
+descricao_ru = Hyper Funkin — идеальный модпак для тех, кто хочет получить лучшее от Friday Night Funkin' в одном месте. Вместо загрузки нескольких отдельных модов здесь ты найдёшь единую, организованную коллекцию с культовыми персонажами, запоминающейся музыкой и испытаниями, которые действительно проверяют твои ритмические навыки.
+icone = images/HyperFunkinBG.png
+tamanho = ~V1: 2,0 GB | V2: 4,1 GB | V3: 4,4 GB
+tamanho_en = ~V1: 2.0 GB | V2: 4.1 GB | V3: 4.4 GB
+tamanho_es = ~V1: 2,0 GB | V2: 4,1 GB | V3: 4,4 GB
+tamanho_ru = ~V1: 2,0 ГБ | V2: 4,1 ГБ | V3: 4,4 ГБ
+criador = Netuke
+criador_en = Netuke
+criador_es = Netuke
+criador_ru = Netuke
+criador_icone = yt
+badge = cancelado | modpack
+versoes = V1>>https://drive.google.com/file/d/1GNO0OErjg5l6ZqhM_qQECaP-ctyY5BBv/view?usp=drive_link | V2>>https://drive.google.com/file/d/1TeO55fguoWxfTPG0SBArY6B7St5fLPsC/view?usp=drive_link | V3>>https://drive.google.com/file/d/1QhPc2x0NtYbrWuQLd2p7lZH2NuX1tLBP/view?usp=drive_link
+
+[item:fnf_lunarifunkin_mod]
+pagina = fnf
+categoria = codename
+titulo = Lunari Funkin
+titulo_en = Lunari Funkin
+titulo_es = Lunari Funkin
+titulo_ru = Lunari Funkin
+descricao = Lunari Funkin é um modpack criado para quem quer mergulhar em uma experiência mais intensa e diferenciada dentro de Friday Night Funkin'. Em vez de apenas reunir mods aleatórios, ele traz uma seleção pensada para oferecer variedade, desafio e identidade própria em cada semana.
+descricao_en = Lunari Funkin is a modpack created for those who want to immerse themselves in a more intense and unique experience within Friday Night Funkin'. Instead of simply gathering random mods, it offers a carefully curated selection designed to provide variety, challenge, and a distinct identity each week.
+descricao_es = Lunari Funkin es un modpack creado para quienes quieren sumergirse en una experiencia más intensa y diferente dentro de Friday Night Funkin'. En lugar de reunir mods al azar, ofrece una selección pensada para dar variedad, desafío e identidad propia cada semana.
+descricao_ru = Lunari Funkin — модпак для тех, кто хочет погрузиться в более насыщенный и уникальный опыт Friday Night Funkin'. Вместо случайных модов здесь тщательно подобранная коллекция, обеспечивающая разнообразие, сложность и особый характер каждую неделю.
+icone = images/LunariFunkinBG.png
+tamanho = ~V1: 563,6 MB | V2: 1,57 GB | V3: 2,14 GB
+tamanho_en = ~V1: 563.6 MB | V2: 1.57 GB | V3: 2.14 GB
+tamanho_es = ~V1: 563,6 MB | V2: 1,57 GB | V3: 2,14 GB
+tamanho_ru = ~V1: 563,6 МБ | V2: 1,57 ГБ | V3: 2,14 ГБ
+criador = Netuke
+criador_en = Netuke
+criador_es = Netuke
+criador_ru = Netuke
+criador_icone = yt
+badge = modpack
+versoes = V1>>https://drive.google.com/file/d/1FxGh44JoSPs-ldzfNma-BZihak8bBSLt/view?usp=drive_link | V2>>https://drive.google.com/file/d/1lGZ8MOFk_NCLj5O1ddh_zxjcwlDKK1ZD/view?usp=drive_link | V3>>https://drive.google.com/file/d/1u64XR5_hGqpXZzaHJgca7SY3BrBh-kMR/view?usp=drive_link
+
+[item:fnf_fridaynightsandboxin_mod]
+pagina = fnf
+categoria = codename
+titulo = Friday Night Sandboxin
+titulo_en = Friday Night Sandboxin
+titulo_es = Friday Night Sandboxin
+titulo_ru = Friday Night Sandboxin
+descricao = Friday Night Sandboxin é um port feito para a Codename Engine que revive uma das ideias mais criativas já vistas na comunidade de Friday Night Funkin'. Inspirado nos clássicos jogos sandbox que marcaram época, o mod traz aquela sensação nostálgica de liberdade e caos criativo direto para o ritmo acelerado das batalhas musicais.
+descricao_en = Friday Night Sandboxin is a port made for the Codename Engine that revives one of the most creative ideas ever seen in the Friday Night Funkin' community. Inspired by classic sandbox games that marked an era, the mod brings that nostalgic feeling of freedom and creative chaos straight to the fast-paced rhythm of musical battles.
+descricao_es = Friday Night Sandboxin es un port para Codename Engine que revive una de las ideas más creativas vistas en la comunidad de Friday Night Funkin'. Inspirado en los clásicos juegos sandbox que marcaron una época, el mod trae esa sensación nostálgica de libertad y caos creativo al ritmo acelerado de las batallas musicales.
+descricao_ru = Friday Night Sandboxin — порт для Codename Engine, возрождающий одну из самых творческих идей сообщества Friday Night Funkin'. Вдохновлённый классическими sandbox-играми, мод привносит ностальгическое ощущение свободы и творческого хаоса в стремительные музыкальные баттлы.
+icone = images/FridayNightSandboxinBG.png
+tamanho = ~44,8 MB
+tamanho_en = ~44.8 MB
+tamanho_es = ~44,8 MB
+tamanho_ru = ~44,8 МБ
+criador = Netuke
+criador_en = Netuke
+criador_es = Netuke
+criador_ru = Netuke
+criador_icone = yt
+badge = port
+link = https://drive.google.com/file/d/1Dm05Y-o3zuT9AZYOv9oYBG_ho4iJwMwk/view?usp=drive_link
+
+[item:fnf_vslorys_mod]
+pagina = fnf
+categoria = psych
+titulo = V.S Lorys
+titulo_en = V.S Lorys
+titulo_es = V.S Lorys
+titulo_ru = V.S Lorys
+descricao = Mod em test.
+descricao_en = Mod in test.
+descricao_es = Mod en prueba.
+descricao_ru = Мод в разработке.
+icone = images/VsLorysBG.png
+tamanho = ~11,2 MB
+tamanho_en = ~11.2 MB
+tamanho_es = ~11,2 MB
+tamanho_ru = ~11,2 МБ
+criador = Netuke
+criador_en = Netuke
+criador_es = Netuke
+criador_ru = Netuke
+criador_icone = yt
+badge = mod
+link = https://drive.google.com/file/d/1T82t3VD5J2LtsOTedQtlxZkw3ISv-0oP/view?usp=drive_link
+
+[item:fnf_vsnothingblox_mod]
+pagina = fnf
+categoria = psych
+titulo = V.S Nothing Blox
+titulo_en = V.S Nothing Blox
+titulo_es = V.S Nothing Blox
+titulo_ru = V.S Nothing Blox
+descricao = V.S Nothing Blox é um mod desenvolvido para a Psych Engine que mergulha em um conflito muito mais profundo do que uma simples batalha musical. A história gira em torno de um garoto que carrega duas versões de si mesmo: uma que representa o bem, e outra que simboliza tudo o que ele tenta reprimir.
+descricao_en = V.S Nothing Blox is a mod developed for the Psych Engine that delves into a conflict far deeper than a simple musical battle. The story revolves around a boy who carries two versions of himself: one representing good, and another symbolizing everything he tries to repress.
+descricao_es = V.S Nothing Blox es un mod desarrollado para Psych Engine que explora un conflicto mucho más profundo que una simple batalla musical. La historia gira en torno a un chico que lleva dos versiones de sí mismo: una que representa el bien, y otra que simboliza todo lo que intenta reprimir.
+descricao_ru = V.S Nothing Blox — мод для Psych Engine, погружающий в конфликт куда глубже, чем просто музыкальная битва. История вращается вокруг мальчика, несущего в себе две версии: одну, представляющую добро, и другую, символизирующую всё, что он пытается подавить.
+icone = images/VsNothingBloxBG.png
+tamanho = ~12,3 MB
+tamanho_en = ~12.3 MB
+tamanho_es = ~12,3 MB
+tamanho_ru = ~12,3 МБ
+criador = Netuke
+criador_en = Netuke
+criador_es = Netuke
+criador_ru = Netuke
+criador_icone = yt
+badge = mod
+link = https://drive.google.com/file/d/1H3yLYB8yyR45RVNFuTdBN7jIvQL9m9gG/view?usp=drive_link
+
+[item:fnf_vsbbpanzu_mod]
+pagina = fnf
+categoria = cdev
+titulo = V.S BBPanzu
+titulo_en = V.S BBPanzu
+titulo_es = V.S BBPanzu
+titulo_ru = V.S BBPanzu
+descricao = Vs BBPanzu é um port para a CDEV Engine que coloca você frente a frente com um dos maiores criadores de mods da história de Friday Night Funkin': BBPanzu. Conhecido por sua criatividade e por ter dado vida a inúmeros personagens icônicos da comunidade, ele aqui não é apenas uma referência, é o seu oponente.
+descricao_en = Vs BB Panzu is a port for the CDEV Engine that pits you against one of the greatest mod creators in Friday Night Funkin' history: BB Panzu. Known for his creativity and for bringing to life countless iconic characters in the community, here he's not just a reference, he's your opponent.
+descricao_es = Vs BBPanzu es un port para CDEV Engine que te enfrenta a uno de los mayores creadores de mods de la historia de Friday Night Funkin': BBPanzu. Conocido por su creatividad y por dar vida a incontables personajes icónicos de la comunidad, aquí no es solo una referencia, es tu oponente.
+descricao_ru = Vs BBPanzu — порт для CDEV Engine, в котором ты встречаешься лицом к лицу с одним из величайших создателей модов в истории Friday Night Funkin': BBPanzu. Известный своей креативностью и созданием культовых персонажей сообщества, здесь он не просто ссылка — он твой противник.
+icone = images/VsBBPanzuBG.png
+tamanho = ~10,1 MB
+tamanho_en = ~10.1 MB
+tamanho_es = ~10,1 MB
+tamanho_ru = ~10,1 МБ
+criador = Netuke
+criador_en = Netuke
+criador_es = Netuke
+criador_ru = Netuke
+criador_icone = yt
+badge = port
+link = https://drive.google.com/file/d/1XLAPlyNaPYSSM5RpMVu1ACEqN_MvrHan/view?usp=drive_link
+
+[item:lac_tec9]
+pagina = lac
+categoria = v18
+titulo = T.E.C 9
+titulo_en = T.E.C 9
+titulo_es = T.E.C 9
+titulo_ru = T.E.C 9
+descricao = Um simples mod da arma T.E.C 9 para o L.A.C
+descricao_en = A simple mod of the T.E.C 9 weapon for the L.A.C.
+descricao_es = Un simple mod del arma T.E.C 9 para el L.A.C.
+descricao_ru = Простой мод оружия T.E.C 9 для L.A.C.
+icone = images/TEC9BG.png
+tamanho = ~42,7 MB
+tamanho_en = ~42.7 MB
+tamanho_es = ~42,7 MB
+tamanho_ru = ~42,7 МБ
+criador = Netuke
+criador_en = Netuke
+criador_es = Netuke
+criador_ru = Netuke
+criador_icone = yt
+badge = desatualizado
+link = https://drive.google.com/file/d/16h7A97Wy18XQKiKEMaC2RLpU92ttbxki/view?usp=drive_link
+
+[item:jogos_undertale]
+pagina = jogos
+categoria = android
+titulo = Undertale
+titulo_en = Undertale
+titulo_es = Undertale
+titulo_ru = Undertale
+descricao = Undertale é muito mais do que um RPG independente — é uma experiência que desafia tudo o que você espera de um jogo do gênero. Criado por Toby Fox, ele coloca você no controle de uma criança que cai no Subsolo, um mundo habitado por monstros que não são exatamente o que parecem.
+descricao_en = Undertale is much more than an indie RPG — it's an experience that challenges everything you expect from a game of the genre. Created by Toby Fox, it puts you in control of a child who falls into the Underground, a world inhabited by monsters that aren't exactly what they seem.
+descricao_es = Undertale es mucho más que un RPG independiente — es una experiencia que desafía todo lo que esperas de un juego del género. Creado por Toby Fox, te pone en control de un niño que cae al Subsuelo, un mundo habitado por monstruos que no son exactamente lo que parecen.
+descricao_ru = Undertale — это нечто большее, чем просто инди-RPG — это опыт, бросающий вызов всему, что ты ожидаешь от игры этого жанра. Созданная Тоби Фоксом, она ставит тебя под управление ребёнка, упавшего в Подземелье, мир, населённый монстрами, которые не совсем таковы, какими кажутся.
+icone = images/UndertaleBG.png
+tamanho = ~PT-BR: 123 MB | EN-US: 142,7 MB
+tamanho_en = ~PT-BR: 123 MB | EN-US: 142.7 MB
+tamanho_es = ~PT-BR: 123 MB | EN-US: 142,7 MB
+tamanho_ru = ~PT-BR: 123 МБ | EN-US: 142,7 МБ
+criador = Toby Fox
+criador_en = Toby Fox
+criador_es = Toby Fox
+criador_ru = Toby Fox
+criador_icone = yt
+versoes = PT-BR>>https://drive.google.com/file/d/1rCyjfi5O3OLnleWTC3CPysdkAzgYuhfP/view?usp=drive_link | EN-US>>https://drive.google.com/file/d/1QSN3Bp5iqdXOf94O9A9ztYAQ98s7ZEEk/view?usp=drive_link
+
+[item:jogos_omori]
+pagina = jogos
+categoria = android
+titulo = Omori
+titulo_en = Omori
+titulo_es = Omori
+titulo_ru = Omori
+descricao = Omori é um RPG psicológico que mergulha profundamente em temas como culpa, trauma e escapismo. Desenvolvido pela Omocat, o jogo acompanha um garoto que vive dividido entre um mundo colorido de fantasia e uma realidade muito mais pesada e dolorosa.
+descricao_en = Omori is a psychological RPG that delves deeply into themes such as guilt, trauma, and escapism. Developed by Omocat, the game follows a boy who lives torn between a colorful fantasy world and a much heavier and more painful reality.
+descricao_es = Omori es un RPG psicológico que profundiza en temas como la culpa, el trauma y el escapismo. Desarrollado por Omocat, el juego sigue a un chico que vive dividido entre un colorido mundo de fantasía y una realidad mucho más pesada y dolorosa.
+descricao_ru = Omori — психологическая RPG, глубоко исследующая темы вины, травмы и эскапизма. Разработанная Omocat, игра следует за мальчиком, живущим разрываясь между красочным миром фантазии и куда более тяжёлой и болезненной реальностью.
+icone = images/OmoriBG.png
+tamanho = ~PT-BR: 745,9 MB | EN-US: 686,2 MB
+tamanho_en = ~PT-BR: 745.9 MB | EN-US: 686.2 MB
+tamanho_es = ~PT-BR: 745,9 MB | EN-US: 686,2 MB
+tamanho_ru = ~PT-BR: 745,9 МБ | EN-US: 686,2 МБ
+criador = Omocat
+criador_en = Omocat
+criador_es = Omocat
+criador_ru = Omocat
+criador_icone = yt
+versoes = PT-BR>>https://drive.google.com/file/d/1GD4uFCl-iA7Imf80M94TC6JD3aMYTsuQ/view?usp=drive_link | EN-US>>https://drive.google.com/file/d/1HiqaK1c8Ao8W0iz2crgkUpO_wXt8VL6a/view?usp=drive_link
+
+[item:jogos_cuphead]
+pagina = jogos
+categoria = android
+titulo = Cuphead
+titulo_en = Cuphead
+titulo_es = Cuphead
+titulo_ru = Cuphead
+descricao = Cuphead é um jogo de ação e plataforma que se destaca pelo seu estilo visual único, totalmente inspirado nos desenhos animados dos anos 1930. Com animações feitas à mão, trilha sonora com forte influência de jazz e uma direção artística impecável, o jogo entrega uma experiência que parece saída diretamente de um desenho antigo — mas com dificuldade moderna.
+descricao_en = Cuphead is an action-platformer that stands out for its unique visual style, entirely inspired by 1930s cartoons. With hand-drawn animations, a soundtrack heavily influenced by jazz, and impeccable art direction, the game delivers an experience that feels like it came straight out of an old cartoon — but with modern difficulty.
+descricao_es = Cuphead es un juego de acción y plataformas que destaca por su estilo visual único, totalmente inspirado en los dibujos animados de los años 30. Con animaciones dibujadas a mano, una banda sonora con fuerte influencia del jazz y una dirección artística impecable, el juego entrega una experiencia que parece sacada directamente de un dibujo antiguo — pero con dificultad moderna.
+descricao_ru = Cuphead — экшн-платформер, выделяющийся уникальным визуальным стилем, полностью вдохновлённым мультфильмами 1930-х годов. С нарисованной вручную анимацией, саундтреком с джазовым влиянием и безупречной художественной направленностью, игра создаёт ощущение, будто вышла прямо из старого мультфильма — но со сложностью современных игр.
+icone = images/CupheadBG.png
+tamanho = ~730,5 MB
+tamanho_en = ~730.5 MB
+tamanho_es = ~730,5 MB
+tamanho_ru = ~730,5 МБ
+criador = Studio MDHR
+criador_en = Studio MDHR
+criador_es = Studio MDHR
+criador_ru = Studio MDHR
+criador_icone = yt
+link = https://drive.google.com/file/d/1DXn3sswlgijPlVLr8uUX7d0f30Q_KCVI/view?usp=drive_link
+
+[item:jogos_zenexfunkin]
+pagina = jogos
+categoria = roblox
+titulo = Zenex Funkin'
+titulo_en = Zenex Funkin'
+titulo_es = Zenex Funkin'
+titulo_ru = Zenex Funkin'
+descricao = Zenex Funkin' é um jogo de ritmo no Roblox inspirado em FNF onde você pode jogar várias músicas conhecidas e testar seu tempo para acertar todas as notas no ritmo certo. Desafie outros jogadores, treine sua precisão e tente fazer a maior pontuação possível.
+descricao_en = Zenex Funkin' is a rhythm game on Roblox inspired by FNF where you can play various well-known songs and test your timing to hit all the notes in the right rhythm. Challenge other players, train your accuracy, and try to get the highest score possible.
+descricao_es = Zenex Funkin' es un juego de ritmo en Roblox inspirado en FNF donde puedes jugar varias canciones conocidas y poner a prueba tu tiempo para acertar todas las notas en el ritmo correcto. Desafía a otros jugadores, entrena tu precisión e intenta conseguir la mayor puntuación posible.
+descricao_ru = Zenex Funkin' — ритм-игра на Roblox, вдохновлённая FNF, где ты можешь играть под разные известные песни и проверить своё чувство ритма. Соревнуйся с другими игроками, тренируй точность и старайся набрать максимальный счёт.
+icone = images/ZenexFunkinBG.png
+criador = Netuke
+criador_en = Netuke
+criador_es = Netuke
+criador_ru = Netuke
+criador_icone = yt
+versoes = PLAY>>https://www.roblox.com/pt/games/124630300328425/Project-Zenex-Funkin
+
+# ============================================================
+#  ABAS DA NAVBAR
+# ============================================================
+[aba:inicio]
+tipo_fixo = home
+icone = 🏠
+nome = Início
+nome_en = Home
+nome_es = Inicio
+nome_ru = Главная
+musica = musics/MenuMusic.ogg
+
+[aba:downloads]
+tipo_fixo = downloads
+icone = ⬇️
+nome = Mods
+nome_en = Mods
+nome_es = Mods
+nome_ru = Моды
+
+[aba:jogos]
+tipo_fixo = downloads
+icone = 🎮
+nome = Jogos
+nome_en = Games
+nome_es = Juegos
+nome_ru = Игры
+
+# ============================================================
+#  MISSÕES DE DESBLOQUEIO
+# ============================================================
+[missao:bs_powerbrawl:V1]
+titulo = Desbloqueie o Power Brawl V1
+titulo_en = Unlock Power Brawl V1
+titulo_es = Desbloquear Power Brawl V1
+titulo_ru = Разблокировать Power Brawl V1
+descricao = Complete as tarefas para liberar o download da V1!
+descricao_en = Complete the tasks to unlock the V1 download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga V1!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку V1!
+
+[tarefa:bs_powerbrawl:V1]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+dica = Inscreva-se no canal do Netuke no YouTube
+dica_en = Subscribe to Netuke's YouTube channel
+dica_es = Suscríbete al canal de Netuke en YouTube
+dica_ru = Подпишись на YouTube-канал Netuke
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:bs_powerbrawl:V1]
+nome = Dê like no vídeo da V1
+nome_en = Like the V1 video
+nome_es = Dale like al vídeo de la V1
+nome_ru = Лайкни видео V1
+dica = Curta o vídeo de lançamento da versão 1
+dica_en = Like the version 1 release video
+dica_es = Dale like al vídeo de lanzamiento de la versión 1
+dica_ru = Лайкни видео релиза версии 1
+icone = 👍
+link = https://www.youtube.com/watch?v=F0rioFOqrao
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:bs_powerbrawl:V1]
+nome = Comente no vídeo da V1
+nome_en = Comment on the V1 video
+nome_es = Comenta en el vídeo de la V1
+nome_ru = Прокомментируй видео V1
+dica = Deixe um comentário no vídeo da V1
+dica_en = Leave a comment on the V1 video
+dica_es = Deja un comentario en el vídeo de la V1
+dica_ru = Оставь комментарий к видео V1
+icone = 💬
+link = https://www.youtube.com/watch?v=F0rioFOqrao
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:bs_powerbrawl:V2]
+titulo = Desbloqueie o Power Brawl V2
+titulo_en = Unlock Power Brawl V2
+titulo_es = Desbloquear Power Brawl V2
+titulo_ru = Разблокировать Power Brawl V2
+descricao = Complete as tarefas para liberar o download da V2!
+descricao_en = Complete the tasks to unlock the V2 download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga V2!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку V2!
+
+[tarefa:bs_powerbrawl:V2]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+dica = Inscreva-se no canal do Netuke no YouTube
+dica_en = Subscribe to Netuke's YouTube channel
+dica_es = Suscríbete al canal de Netuke en YouTube
+dica_ru = Подпишись на YouTube-канал Netuke
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:bs_powerbrawl:V2]
+nome = Dê like no vídeo da V2
+nome_en = Like the V2 video
+nome_es = Dale like al vídeo de la V2
+nome_ru = Лайкни видео V2
+icone = 👍
+link = https://www.youtube.com/watch?v=8b9lhNjjMHo&t=2s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:bs_powerbrawl:V2]
+nome = Comente no vídeo da V2
+nome_en = Comment on the V2 video
+nome_es = Comenta en el vídeo de la V2
+nome_ru = Прокомментируй видео V2
+icone = 💬
+link = https://www.youtube.com/watch?v=8b9lhNjjMHo&t=2s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:bs_powerbrawl:V3]
+titulo = Desbloqueie o Power Brawl V3
+titulo_en = Unlock Power Brawl V3
+titulo_es = Desbloquear Power Brawl V3
+titulo_ru = Разблокировать Power Brawl V3
+descricao = Complete as tarefas para liberar o download da V3!
+descricao_en = Complete the tasks to unlock the V3 download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga V3!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку V3!
+
+[tarefa:bs_powerbrawl:V3]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:bs_powerbrawl:V3]
+nome = Dê like no vídeo da V3
+nome_en = Like the V3 video
+nome_es = Dale like al vídeo de la V3
+nome_ru = Лайкни видео V3
+icone = 👍
+link = https://www.youtube.com/watch?v=Zht8NVT-F5Y
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:bs_powerbrawl:V3]
+nome = Comente no vídeo da V3
+nome_en = Comment on the V3 video
+nome_es = Comenta en el vídeo de la V3
+nome_ru = Прокомментируй видео V3
+icone = 💬
+link = https://www.youtube.com/watch?v=Zht8NVT-F5Y
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:bs_powerbrawl:V4]
+titulo = Desbloqueie o Power Brawl V4
+titulo_en = Unlock Power Brawl V4
+titulo_es = Desbloquear Power Brawl V4
+titulo_ru = Разблокировать Power Brawl V4
+descricao = Complete as tarefas para liberar o download da V4!
+descricao_en = Complete the tasks to unlock the V4 download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga V4!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку V4!
+
+[tarefa:bs_powerbrawl:V4]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:bs_powerbrawl:V4]
+nome = Dê like no vídeo da V4
+nome_en = Like the V4 video
+nome_es = Dale like al vídeo de la V4
+nome_ru = Лайкни видео V4
+icone = 👍
+link = https://www.youtube.com/watch?v=kDQB2AnINf4&t=11s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:bs_powerbrawl:V4]
+nome = Comente no vídeo da V4
+nome_en = Comment on the V4 video
+nome_es = Comenta en el vídeo de la V4
+nome_ru = Прокомментируй видео V4
+icone = 💬
+link = https://www.youtube.com/watch?v=kDQB2AnINf4&t=11s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:bs_cosmicbrawl:V1]
+titulo = Desbloqueie o Cosmic Brawl V1
+titulo_en = Unlock Cosmic Brawl V1
+titulo_es = Desbloquear Cosmic Brawl V1
+titulo_ru = Разблокировать Cosmic Brawl V1
+descricao = Complete as tarefas para liberar o download da V1!
+descricao_en = Complete the tasks to unlock the V1 download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga V1!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку V1!
+
+[tarefa:bs_cosmicbrawl:V1]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:bs_cosmicbrawl:V1]
+nome = Dê like no vídeo da V1
+nome_en = Like the V1 video
+nome_es = Dale like al vídeo de la V1
+nome_ru = Лайкни видео V1
+icone = 👍
+link = https://www.youtube.com/watch?v=F0rioFOqrao
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:bs_cosmicbrawl:V1]
+nome = Comente no vídeo da V1
+nome_en = Comment on the V1 video
+nome_es = Comenta en el vídeo de la V1
+nome_ru = Прокомментируй видео V1
+icone = 💬
+link = https://www.youtube.com/watch?v=F0rioFOqrao
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:bs_cosmicbrawl:V2]
+titulo = Desbloqueie o Cosmic Brawl V2
+titulo_en = Unlock Cosmic Brawl V2
+titulo_es = Desbloquear Cosmic Brawl V2
+titulo_ru = Разблокировать Cosmic Brawl V2
+descricao = Complete as tarefas para liberar o download da V2!
+descricao_en = Complete the tasks to unlock the V2 download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga V2!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку V2!
+
+[tarefa:bs_cosmicbrawl:V2]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:bs_cosmicbrawl:V2]
+nome = Dê like no vídeo da V2
+nome_en = Like the V2 video
+nome_es = Dale like al vídeo de la V2
+nome_ru = Лайкни видео V2
+icone = 👍
+link = https://www.youtube.com/watch?v=8b9lhNjjMHo&t=2s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:bs_cosmicbrawl:V2]
+nome = Comente no vídeo da V2
+nome_en = Comment on the V2 video
+nome_es = Comenta en el vídeo de la V2
+nome_ru = Прокомментируй видео V2
+icone = 💬
+link = https://www.youtube.com/watch?v=8b9lhNjjMHo&t=2s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:bs_cosmicbrawl:V3]
+titulo = Desbloqueie o Cosmic Brawl V3
+titulo_en = Unlock Cosmic Brawl V3
+titulo_es = Desbloquear Cosmic Brawl V3
+titulo_ru = Разблокировать Cosmic Brawl V3
+descricao = Complete as tarefas para liberar o download da V3!
+descricao_en = Complete the tasks to unlock the V3 download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga V3!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку V3!
+
+[tarefa:bs_cosmicbrawl:V3]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:bs_cosmicbrawl:V3]
+nome = Dê like no vídeo da V3
+nome_en = Like the V3 video
+nome_es = Dale like al vídeo de la V3
+nome_ru = Лайкни видео V3
+icone = 👍
+link = https://www.youtube.com/watch?v=Zht8NVT-F5Y
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:bs_cosmicbrawl:V3]
+nome = Comente no vídeo da V3
+nome_en = Comment on the V3 video
+nome_es = Comenta en el vídeo de la V3
+nome_ru = Прокомментируй видео V3
+icone = 💬
+link = https://www.youtube.com/watch?v=Zht8NVT-F5Y
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:fnf_hyperfunkin_mod:V1]
+titulo = Desbloqueie o Hyper Funkin V1
+titulo_en = Unlock Hyper Funkin V1
+titulo_es = Desbloquear Hyper Funkin V1
+titulo_ru = Разблокировать Hyper Funkin V1
+descricao = Complete as tarefas para liberar o download da V1!
+descricao_en = Complete the tasks to unlock the V1 download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga V1!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку V1!
+
+[tarefa:fnf_hyperfunkin_mod:V1]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:fnf_hyperfunkin_mod:V1]
+nome = Dê like no vídeo da V1
+nome_en = Like the V1 video
+nome_es = Dale like al vídeo de la V1
+nome_ru = Лайкни видео V1
+icone = 👍
+link = https://www.youtube.com/watch?v=37lpql_XjtU&t=231s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:fnf_hyperfunkin_mod:V1]
+nome = Comente no vídeo da V1
+nome_en = Comment on the V1 video
+nome_es = Comenta en el vídeo de la V1
+nome_ru = Прокомментируй видео V1
+icone = 💬
+link = https://www.youtube.com/watch?v=37lpql_XjtU&t=231s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:fnf_hyperfunkin_mod:V2]
+titulo = Desbloqueie o Hyper Funkin V2
+titulo_en = Unlock Hyper Funkin V2
+titulo_es = Desbloquear Hyper Funkin V2
+titulo_ru = Разблокировать Hyper Funkin V2
+descricao = Complete as tarefas para liberar o download da V2!
+descricao_en = Complete the tasks to unlock the V2 download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga V2!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку V2!
+
+[tarefa:fnf_hyperfunkin_mod:V2]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:fnf_hyperfunkin_mod:V2]
+nome = Dê like no vídeo da V2
+nome_en = Like the V2 video
+nome_es = Dale like al vídeo de la V2
+nome_ru = Лайкни видео V2
+icone = 👍
+link = https://www.youtube.com/watch?v=2Y8fQSIQ-ic&t=89s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:fnf_hyperfunkin_mod:V2]
+nome = Comente no vídeo da V2
+nome_en = Comment on the V2 video
+nome_es = Comenta en el vídeo de la V2
+nome_ru = Прокомментируй видео V2
+icone = 💬
+link = https://www.youtube.com/watch?v=2Y8fQSIQ-ic&t=89s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:fnf_hyperfunkin_mod:V3]
+titulo = Desbloqueie o Hyper Funkin V3
+titulo_en = Unlock Hyper Funkin V3
+titulo_es = Desbloquear Hyper Funkin V3
+titulo_ru = Разблокировать Hyper Funkin V3
+descricao = Complete as tarefas para liberar o download da V3!
+descricao_en = Complete the tasks to unlock the V3 download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga V3!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку V3!
+
+[tarefa:fnf_hyperfunkin_mod:V3]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:fnf_hyperfunkin_mod:V3]
+nome = Dê like no vídeo da V3
+nome_en = Like the V3 video
+nome_es = Dale like al vídeo de la V3
+nome_ru = Лайкни видео V3
+icone = 👍
+link = https://www.youtube.com/watch?v=4oW4w20Agy0&t=6s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:fnf_hyperfunkin_mod:V3]
+nome = Comente no vídeo da V3
+nome_en = Comment on the V3 video
+nome_es = Comenta en el vídeo de la V3
+nome_ru = Прокомментируй видео V3
+icone = 💬
+link = https://www.youtube.com/watch?v=4oW4w20Agy0&t=6s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:fnf_lunarifunkin_mod:V1]
+titulo = Desbloqueie o Lunari Funkin V1
+titulo_en = Unlock Lunari Funkin V1
+titulo_es = Desbloquear Lunari Funkin V1
+titulo_ru = Разблокировать Lunari Funkin V1
+descricao = Complete as tarefas para liberar o download da V1!
+descricao_en = Complete the tasks to unlock the V1 download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga V1!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку V1!
+
+[tarefa:fnf_lunarifunkin_mod:V1]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:fnf_lunarifunkin_mod:V1]
+nome = Dê like no vídeo da V1
+nome_en = Like the V1 video
+nome_es = Dale like al vídeo de la V1
+nome_ru = Лайкни видео V1
+icone = 👍
+link = https://www.youtube.com/watch?v=4KDiaxqHRVY&t=3s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:fnf_lunarifunkin_mod:V1]
+nome = Comente no vídeo da V1
+nome_en = Comment on the V1 video
+nome_es = Comenta en el vídeo de la V1
+nome_ru = Прокомментируй видео V1
+icone = 💬
+link = https://www.youtube.com/watch?v=4KDiaxqHRVY&t=3s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:fnf_lunarifunkin_mod:V2]
+titulo = Desbloqueie o Lunari Funkin V2
+titulo_en = Unlock Lunari Funkin V2
+titulo_es = Desbloquear Lunari Funkin V2
+titulo_ru = Разблокировать Lunari Funkin V2
+descricao = Complete as tarefas para liberar o download da V2!
+descricao_en = Complete the tasks to unlock the V2 download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga V2!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку V2!
+
+[tarefa:fnf_lunarifunkin_mod:V2]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:fnf_lunarifunkin_mod:V2]
+nome = Dê like no vídeo da V2
+nome_en = Like the V2 video
+nome_es = Dale like al vídeo de la V2
+nome_ru = Лайкни видео V2
+icone = 👍
+link = https://www.youtube.com/watch?v=3kxooNUO_xg&t=13s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:fnf_lunarifunkin_mod:V2]
+nome = Comente no vídeo da V2
+nome_en = Comment on the V2 video
+nome_es = Comenta en el vídeo de la V2
+nome_ru = Прокомментируй видео V2
+icone = 💬
+link = https://www.youtube.com/watch?v=3kxooNUO_xg&t=13s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:fnf_lunarifunkin_mod:V3]
+titulo = Desbloqueie o Lunari Funkin V3
+titulo_en = Unlock Lunari Funkin V3
+titulo_es = Desbloquear Lunari Funkin V3
+titulo_ru = Разблокировать Lunari Funkin V3
+descricao = Complete as tarefas para liberar o download da V3!
+descricao_en = Complete the tasks to unlock the V3 download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga V3!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку V3!
+
+[tarefa:fnf_lunarifunkin_mod:V3]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:fnf_lunarifunkin_mod:V3]
+nome = Dê like no vídeo da V3
+nome_en = Like the V3 video
+nome_es = Dale like al vídeo de la V3
+nome_ru = Лайкни видео V3
+icone = 👍
+link = https://www.youtube.com/watch?v=QK9ZEVDcwug&t=11s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:fnf_lunarifunkin_mod:V3]
+nome = Comente no vídeo da V3
+nome_en = Comment on the V3 video
+nome_es = Comenta en el vídeo de la V3
+nome_ru = Прокомментируй видео V3
+icone = 💬
+link = https://www.youtube.com/watch?v=QK9ZEVDcwug&t=11s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:fnf_fridaynightsandboxin_mod]
+titulo = Desbloqueie o Friday Night Sandboxin
+titulo_en = Unlock Friday Night Sandboxin
+titulo_es = Desbloquear Friday Night Sandboxin
+titulo_ru = Разблокировать Friday Night Sandboxin
+descricao = Complete as tarefas para liberar o download!
+descricao_en = Complete the tasks to unlock the download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку!
+
+[tarefa:fnf_fridaynightsandboxin_mod]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:fnf_fridaynightsandboxin_mod]
+nome = Dê like no vídeo
+nome_en = Like the video
+nome_es = Dale like al vídeo
+nome_ru = Лайкни видео
+icone = 👍
+link = https://www.youtube.com/watch?v=I7TS4J3ctT4&t=51s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:fnf_fridaynightsandboxin_mod]
+nome = Comente no vídeo
+nome_en = Comment on the video
+nome_es = Comenta en el vídeo
+nome_ru = Прокомментируй видео
+icone = 💬
+link = https://www.youtube.com/watch?v=I7TS4J3ctT4&t=51s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:fnf_vslorys_mod]
+titulo = Desbloqueie o V.S Lorys
+titulo_en = Unlock V.S Lorys
+titulo_es = Desbloquear V.S Lorys
+titulo_ru = Разблокировать V.S Lorys
+descricao = Complete as tarefas para liberar o download!
+descricao_en = Complete the tasks to unlock the download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку!
+
+[tarefa:fnf_vslorys_mod]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:fnf_vslorys_mod]
+nome = Dê like no vídeo
+nome_en = Like the video
+nome_es = Dale like al vídeo
+nome_ru = Лайкни видео
+icone = 👍
+link = https://www.youtube.com/watch?v=YhqcHYKwjZo&t=28s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:fnf_vslorys_mod]
+nome = Comente no vídeo
+nome_en = Comment on the video
+nome_es = Comenta en el vídeo
+nome_ru = Прокомментируй видео
+icone = 💬
+link = https://www.youtube.com/watch?v=YhqcHYKwjZo&t=28s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:fnf_vsnothingblox_mod]
+titulo = Desbloqueie o V.S Nothing Blox
+titulo_en = Unlock V.S Nothing Blox
+titulo_es = Desbloquear V.S Nothing Blox
+titulo_ru = Разблокировать V.S Nothing Blox
+descricao = Complete as tarefas para liberar o download!
+descricao_en = Complete the tasks to unlock the download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку!
+
+[tarefa:fnf_vsnothingblox_mod]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:fnf_vsnothingblox_mod]
+nome = Dê like no vídeo
+nome_en = Like the video
+nome_es = Dale like al vídeo
+nome_ru = Лайкни видео
+icone = 👍
+link = https://www.youtube.com/watch?v=zIL2hEj7g54&t=53s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:fnf_vsnothingblox_mod]
+nome = Comente no vídeo
+nome_en = Comment on the video
+nome_es = Comenta en el vídeo
+nome_ru = Прокомментируй видео
+icone = 💬
+link = https://www.youtube.com/watch?v=zIL2hEj7g54&t=53s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:fnf_vsbbpanzu_mod]
+titulo = Desbloqueie o V.S BBPanzu
+titulo_en = Unlock V.S BBPanzu
+titulo_es = Desbloquear V.S BBPanzu
+titulo_ru = Разблокировать V.S BBPanzu
+descricao = Complete as tarefas para liberar o download!
+descricao_en = Complete the tasks to unlock the download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку!
+
+[tarefa:fnf_vsbbpanzu_mod]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:fnf_vsbbpanzu_mod]
+nome = Dê like no vídeo
+nome_en = Like the video
+nome_es = Dale like al vídeo
+nome_ru = Лайкни видео
+icone = 👍
+link = https://www.youtube.com/watch?v=FSgW8zBNC-w
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:fnf_vsbbpanzu_mod]
+nome = Comente no vídeo
+nome_en = Comment on the video
+nome_es = Comenta en el vídeo
+nome_ru = Прокомментируй видео
+icone = 💬
+link = https://www.youtube.com/watch?v=FSgW8zBNC-w
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:lac_tec9]
+titulo = Desbloqueie o T.E.C 9
+titulo_en = Unlock T.E.C 9
+titulo_es = Desbloquear T.E.C 9
+titulo_ru = Разблокировать T.E.C 9
+descricao = Complete as tarefas para liberar o download!
+descricao_en = Complete the tasks to unlock the download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку!
+
+[tarefa:lac_tec9]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:lac_tec9]
+nome = Dê like no vídeo
+nome_en = Like the video
+nome_es = Dale like al vídeo
+nome_ru = Лайкни видео
+icone = 👍
+link = https://www.youtube.com/watch?v=e0Ww5kc7Kls
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:lac_tec9]
+nome = Comente no vídeo
+nome_en = Comment on the video
+nome_es = Comenta en el vídeo
+nome_ru = Прокомментируй видео
+icone = 💬
+link = https://www.youtube.com/watch?v=e0Ww5kc7Kls
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:jogos_undertale:PT-BR]
+titulo = Desbloqueie Undertale PT-BR
+titulo_en = Unlock Undertale PT-BR
+titulo_es = Desbloquear Undertale PT-BR
+titulo_ru = Разблокировать Undertale PT-BR
+descricao = Conclua as tarefas para desbloquear o download da versão em português (Brasil).
+descricao_en = Complete the tasks to unlock the download of the Portuguese (Brazil) version.
+descricao_es = Completa las tareas para desbloquear la descarga de la versión en portugués (Brasil).
+descricao_ru = Выполни задания, чтобы разблокировать загрузку версии на португальском (Бразилия).
+
+[tarefa:jogos_undertale:PT-BR]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:jogos_undertale:PT-BR]
+nome = Dê like no vídeo da versão PT-BR
+nome_en = Like the video for the PT-BR version.
+nome_es = Dale like al vídeo de la versión PT-BR
+nome_ru = Лайкни видео версии PT-BR
+icone = 👍
+link = https://www.youtube.com/watch?v=QOPbwsTaMzg&t=9s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:jogos_undertale:PT-BR]
+nome = Comente no vídeo da versão PT-BR
+nome_en = Comment on the PT-BR version of the video
+nome_es = Comenta en el vídeo de la versión PT-BR
+nome_ru = Прокомментируй видео версии PT-BR
+icone = 💬
+link = https://www.youtube.com/watch?v=QOPbwsTaMzg&t=9s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:jogos_undertale:EN-US]
+titulo = Desbloqueie Undertale EN-US
+titulo_en = Unlock Undertale EN-US
+titulo_es = Desbloquear Undertale EN-US
+titulo_ru = Разблокировать Undertale EN-US
+descricao = Conclua as tarefas para desbloquear o download da versão em inglês.
+descricao_en = Complete the tasks to unlock the English version download.
+descricao_es = Completa las tareas para desbloquear la descarga de la versión en inglés.
+descricao_ru = Выполни задания, чтобы разблокировать загрузку английской версии.
+
+[tarefa:jogos_undertale:EN-US]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:jogos_undertale:EN-US]
+nome = Dê like no vídeo
+nome_en = Like the video
+nome_es = Dale like al vídeo
+nome_ru = Лайкни видео
+icone = 👍
+link = https://www.youtube.com/watch?v=QOPbwsTaMzg&t=9s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:jogos_undertale:EN-US]
+nome = Comente no vídeo
+nome_en = Comment on the video
+nome_es = Comenta en el vídeo
+nome_ru = Прокомментируй видео
+icone = 💬
+link = https://www.youtube.com/watch?v=QOPbwsTaMzg&t=9s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:jogos_omori:PT-BR]
+titulo = Desbloqueie Omori PT-BR
+titulo_en = Unlock Omori PT-BR
+titulo_es = Desbloquear Omori PT-BR
+titulo_ru = Разблокировать Omori PT-BR
+descricao = Conclua as tarefas para desbloquear o download da versão em português.
+descricao_en = Complete the tasks to unlock the Portuguese version download.
+descricao_es = Completa las tareas para desbloquear la descarga de la versión en portugués.
+descricao_ru = Выполни задания, чтобы разблокировать загрузку португальской версии.
+
+[tarefa:jogos_omori:PT-BR]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:jogos_omori:PT-BR]
+nome = Dê like no vídeo
+nome_en = Like the video
+nome_es = Dale like al vídeo
+nome_ru = Лайкни видео
+icone = 👍
+link = https://www.youtube.com/watch?v=e532GlWNsUs&t=3s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:jogos_omori:PT-BR]
+nome = Comente no vídeo
+nome_en = Comment on the video
+nome_es = Comenta en el vídeo
+nome_ru = Прокомментируй видео
+icone = 💬
+link = https://www.youtube.com/watch?v=e532GlWNsUs&t=3s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:jogos_omori:EN-US]
+titulo = Desbloqueie Omori EN-US
+titulo_en = Unlock Omori EN-US
+titulo_es = Desbloquear Omori EN-US
+titulo_ru = Разблокировать Omori EN-US
+descricao = Conclua as tarefas para desbloquear o download da versão em inglês.
+descricao_en = Complete the tasks to unlock the English version download.
+descricao_es = Completa las tareas para desbloquear la descarga de la versión en inglés.
+descricao_ru = Выполни задания, чтобы разблокировать загрузку английской версии.
+
+[tarefa:jogos_omori:EN-US]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:jogos_omori:EN-US]
+nome = Dê like no vídeo
+nome_en = Like the video
+nome_es = Dale like al vídeo
+nome_ru = Лайкни видео
+icone = 👍
+link = https://www.youtube.com/watch?v=e532GlWNsUs&t=3s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:jogos_omori:EN-US]
+nome = Comente no vídeo
+nome_en = Comment on the video
+nome_es = Comenta en el vídeo
+nome_ru = Прокомментируй видео
+icone = 💬
+link = https://www.youtube.com/watch?v=e532GlWNsUs&t=3s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
+
+[missao:jogos_cuphead]
+titulo = Desbloqueie o Cuphead
+titulo_en = Unlock Cuphead
+titulo_es = Desbloquear Cuphead
+titulo_ru = Разблокировать Cuphead
+descricao = Complete as tarefas para liberar o download!
+descricao_en = Complete the tasks to unlock the download!
+descricao_es = ¡Completa las tareas para desbloquear la descarga!
+descricao_ru = Выполни задания, чтобы разблокировать загрузку!
+
+[tarefa:jogos_cuphead]
+nome = Se inscreva no canal
+nome_en = Subscribe to the channel
+nome_es = Suscríbete al canal
+nome_ru = Подпишись на канал
+icone = 🔔
+link = https://www.youtube.com/@Netuke?sub_confirmation=1
+botao = Inscrever
+botao_en = Subscribe
+botao_es = Suscribirse
+botao_ru = Подписаться
+
+[tarefa:jogos_cuphead]
+nome = Dê like no vídeo
+nome_en = Like the video
+nome_es = Dale like al vídeo
+nome_ru = Лайкни видео
+icone = 👍
+link = https://www.youtube.com/watch?v=aRnYr8hssf0&t=10s
+botao = Dar Like
+botao_en = Give Like
+botao_es = Dar Like
+botao_ru = Лайкнуть
+
+[tarefa:jogos_cuphead]
+nome = Comente no vídeo
+nome_en = Comment on the video
+nome_es = Comenta en el vídeo
+nome_ru = Прокомментируй видео
+icone = 💬
+link = https://www.youtube.com/watch?v=aRnYr8hssf0&t=10s
+botao = Comentar
+botao_en = Comment
+botao_es = Comentar
+botao_ru = Комментировать
