@@ -602,28 +602,16 @@ footer strong{color:var(--cw)}
 }
 </style>
 </head>
-
-</head>
-
-</head>
-
-</head>
-
-</head>
-
-</head>
-
-</head>
 <body>
 <div id="splash">
   <div class="splash-bg"></div>
   <canvas id="splash-canvas" style="position:absolute;inset:0;pointer-events:none;z-index:0"></canvas>
   <div class="splash-logo-wrap">
-    <span class="splash-logo" id="splash-titulo">Netuke.Workshop</span>
+    <span class="splash-logo" id="splash-titulo"></span>
   </div>
   <div class="splash-btn-wrap">
     <button class="splash-btn" id="splash-btn">
-      <span id="splash-btn-label">PLAY</span>
+      <span id="splash-btn-label"></span>
     </button>
   </div>
   <div class="splash-line"></div>
@@ -665,16 +653,16 @@ footer strong{color:var(--cw)}
     </div>
     <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="color:var(--g3)"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
     <span id="music-name"></span>
-    <button class="music-btn" id="music-toggle" onclick="toggleMusic()">&#9654; <span id="music-play-label">Play</span></button>
-    <button class="music-btn" onclick="stopMusic()">&#9632; <span id="music-stop-label">Parar</span></button>
+    <button class="music-btn" id="music-toggle" onclick="toggleMusic()">&#9654; <span id="music-play-label"></span></button>
+    <button class="music-btn" onclick="stopMusic()">&#9632; <span id="music-stop-label"></span></button>
   </div>
 </nav>
 <div class="mission-overlay" id="mission-overlay" onclick="missionOverlayClick(event)">
   <div class="mission-box">
     <div class="mission-header">
       <div class="mission-header-info">
-        <h2 id="mission-title">&#128274; Desbloquear Download</h2>
-        <p id="mission-desc">Complete as tarefas abaixo para liberar o download.</p>
+        <h2 id="mission-title"></h2>
+        <p id="mission-desc"></p>
       </div>
       <button class="mission-close" onclick="closeMission()">&#10005;</button>
     </div>
@@ -683,15 +671,15 @@ footer strong{color:var(--cw)}
       <div class="mission-progress" id="mission-progress"></div>
       <a id="mission-dl-btn" class="mission-dl-btn" href="#" target="_blank">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
-        <span id="mission-dl-label">Baixar</span>
+        <span id="mission-dl-label"></span>
       </a>
     </div>
   </div>
 </div>
 <div id="app">
   <div class="loading">
-    <h2>&#9881;&#65039; Carregando...</h2>
-    <p>Lendo config.txt...</p>
+    <h2 id="loading-title"></h2>
+    <p id="loading-sub"></p>
     <div class="loading-dots"><span></span><span></span><span></span></div>
   </div>
 </div>
@@ -1170,6 +1158,13 @@ function applyLangUI(){
     const abaKey=activePage.startsWith('aba-')?activePage.slice(4):activePage;
     document.getElementById('tab-aba-'+abaKey)?.classList.add('active');
   }
+
+  const lt=document.getElementById('loading-title');
+  const ls=document.getElementById('loading-sub');
+  if(lt) lt.textContent=t('ui_loading');
+  if(ls) ls.textContent=t('ui_loading_sub');
+  const mdl=document.getElementById('mission-dl-label');
+  if(mdl) mdl.textContent=t('ui_download');
 }
 // Helper: get field with optional _en translation
 function cf(obj, key){
@@ -1816,15 +1811,15 @@ async function init(){
     // Update splash texts with config values
     if(document.getElementById('splash-titulo')){
       const splash = document.getElementById('splash');
-      if(splash && !_splashDismissed){
+      if(_cfg && !_splashDismissed){
         const st=document.getElementById('splash-titulo');
-        const ss=document.getElementById('splash-sub');
         const sb=document.getElementById('splash-btn-label');
-        const sh=document.getElementById('splash-hint-label');
-        if(st) st.textContent=t('ui_splash_titulo')||'Netuke';
-        if(ss) ss.textContent=t('ui_splash_subtitulo')||'';
+        const lt=document.getElementById('loading-title');
+        const ls=document.getElementById('loading-sub');
+        if(st) st.textContent=t('ui_splash_titulo')||'Netuke.Workshop';
         if(sb) sb.textContent=t('ui_splash_botao')||'PLAY';
-        if(sh) sh.textContent=t('ui_splash_hint')||'';
+        if(lt) lt.textContent=t('ui_loading');
+        if(ls) ls.textContent=t('ui_loading_sub');
       }
     }
   }
