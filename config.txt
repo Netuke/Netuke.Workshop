@@ -627,11 +627,11 @@ tamanho = ~V1: 159,1 MB | V2: 176,9 MB | V3: 190,9 MB | V4: 213,3 MB
 tamanho_en = ~V1: 159.1 MB | V2: 176.9 MB | V3: 190.9 MB | V4: 213.3 MB
 tamanho_es = ~V1: 159,1 MB | V2: 176,9 MB | V3: 190,9 MB | V4: 213,3 MB
 tamanho_ru = ~V1: 159,1 МБ | V2: 176,9 МБ | V3: 190,9 МБ | V4: 213,3 МБ
-criador = Netuke Team
-criador_en = Netuke Team
-criador_es = Netuke Team
-criador_ru = Netuke Team
-criador_icone = images/NetukeTeam.png
+criador = Nelt Crew
+criador_en = Nelt Crew
+criador_es = Nelt Crew
+criador_ru = Nelt Crew
+criador_icone = images/NeltCrew.png
 badge = cancelado
 versoes = V1>>https://drive.google.com/file/d/1a77qAjRRrvKtgKCUTpPrqRyjGoVXCG1p/view?usp=drive_link | V2>>https://drive.google.com/file/d/1WxF6J_axm8O2R1V8qp8BbFHjFUMguUjT/view?usp=drive_link | V3>>https://drive.google.com/file/d/1F_92Y3BVF1-UQK2OdUGWsuGAkKZyCnAz/view?usp=drive_link | V4>>https://drive.google.com/file/d/1wq38_YprKCGiWYWWnVibKFycuU_fINuf/view?usp=drive_link
 
@@ -650,11 +650,11 @@ tamanho = ~V1: 128,1 MB | V2: 216,1 MB | V3: 264,0 MB
 tamanho_en = ~V1: 128.1 MB | V2: 216.1 MB | V3: 264.0 MB
 tamanho_es = ~V1: 128,1 MB | V2: 216,1 MB | V3: 264,0 MB
 tamanho_ru = ~V1: 128,1 МБ | V2: 216,1 МБ | V3: 264,0 МБ
-criador = Netuke Team
-criador_en = Netuke Team
-criador_es = Netuke Team
-criador_ru = Netuke Team
-criador_icone = images/NetukeTeam.png
+criador = Nelt Crew
+criador_en = Nelt Crew
+criador_es = Nelt Crew
+criador_ru = Nelt Crew
+criador_icone = images/NeltCrew.png
 badge = cancelado
 versoes = V1>>https://drive.google.com/file/d/1YfAuI_nQu8FovGAlN7FD1V-yLJWPCjp2/view?usp=drive_link | V2>>https://drive.google.com/file/d/1Y25a0xgv8cEWkbYlc0OU68HlWakkoDME/view?usp=drive_link | V3>>https://drive.google.com/file/d/16k-gw_FGq9y2qHdOuWJxEr4xYrL--rl6/view?usp=drive_link
 
@@ -666,11 +666,11 @@ titulo_en = Horizon Brawl
 titulo_es = Horizon Brawl
 titulo_ru = Horizon Brawl
 icone = images/HorizonBrawlBG.png
-criador = Netuke Team
-criador_en = Netuke Team
-criador_es = Netuke Team
-criador_ru = Netuke Team
-criador_icone = images/NetukeTeam.png
+criador = Nelt Crew
+criador_en = Nelt Crew
+criador_es = Nelt Crew
+criador_ru = Nelt Crew
+criador_icone = images/NeltCrew.png
 badge = embreve
 
 [item:fnf_hyperfunkin_mod]
