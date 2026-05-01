@@ -74,10 +74,10 @@ ui_discord_cta_en = Want news before everyone? Join the Discord!
 ui_discord_cta_es = ¿Quieres novedades antes que todos? ¡Únete al Discord!
 ui_discord_cta_ru = Хочешь новости раньше всех? Заходи в Discord!
 
-ui_feito_por = Feito por
-ui_feito_por_en = Made by
-ui_feito_por_es = Hecho por
-ui_feito_por_ru = Сделано
+ui_feito_por = Feito por:
+ui_feito_por_en = Made by:
+ui_feito_por_es = Hecho por:
+ui_feito_por_ru = Сделано:
 
 ui_criador_titulo = Criador
 ui_criador_titulo_en = Creator
